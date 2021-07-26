@@ -10327,6 +10327,7 @@ design rules under a new name.</description>
 <vertex x="37" y="1" curve="-180"/>
 <vertex x="37" y="5" curve="-180"/>
 </polygon>
+<wire x1="7.9" y1="9.8782" x2="9" y2="11" width="0.8128" layer="16"/>
 </signal>
 <signal name="5V">
 <contactref element="C34" pad="1"/>
