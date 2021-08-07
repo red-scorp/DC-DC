@@ -116,15 +116,22 @@
 <layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="EEE" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="139" name="_tKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
@@ -57151,6 +57158,36 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="_my_fiducia">
+<description>Fiducial mount</description>
+<packages>
+<package name="TOOLING-HOLE">
+<description>Tooling hole 1.152mm (45.4mil)</description>
+<hole x="0" y="0" drill="1.153159375"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TOOLING">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TOOLINGHOLE" prefix="HOLE">
+<description>JLCPCB Tooling Hole</description>
+<gates>
+<gate name="G$1" symbol="TOOLING" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TOOLING-HOLE">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -57236,6 +57273,9 @@ Source: www.kingbright.com</description>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3k"/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="HOLE1" library="_my_fiducia" deviceset="TOOLINGHOLE" device=""/>
+<part name="HOLE2" library="_my_fiducia" deviceset="TOOLINGHOLE" device=""/>
+<part name="HOLE3" library="_my_fiducia" deviceset="TOOLINGHOLE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -57485,8 +57525,8 @@ Source: www.kingbright.com</description>
 <instance part="SUPPLY6" gate="G$1" x="233.68" y="109.22" smashed="yes">
 <attribute name="VALUE" x="233.68" y="112.014" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="LOGO1" gate="G$1" x="139.7" y="2.54" smashed="yes"/>
-<instance part="LOGO2" gate="G$1" x="109.22" y="2.54" smashed="yes"/>
+<instance part="LOGO1" gate="G$1" x="139.7" y="12.7" smashed="yes"/>
+<instance part="LOGO2" gate="G$1" x="134.62" y="2.54" smashed="yes"/>
 <instance part="LED1" gate="G$1" x="238.76" y="139.7" smashed="yes">
 <attribute name="NAME" x="242.316" y="135.128" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="244.475" y="135.128" size="1.778" layer="96" rot="R90"/>
@@ -57501,6 +57541,9 @@ Source: www.kingbright.com</description>
 <instance part="GND4" gate="1" x="238.76" y="121.92" smashed="yes">
 <attribute name="VALUE" x="238.76" y="121.666" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="HOLE1" gate="G$1" x="157.48" y="25.4" smashed="yes"/>
+<instance part="HOLE2" gate="G$1" x="149.86" y="25.4" smashed="yes"/>
+<instance part="HOLE3" gate="G$1" x="142.24" y="25.4" smashed="yes"/>
 </instances>
 <busses>
 </busses>
