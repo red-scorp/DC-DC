@@ -38,8 +38,8 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
@@ -10180,7 +10180,7 @@ design rules under a new name.</description>
 <element name="HOLE3" library="_my_fiducia" package="TOOLING-HOLE" value="TOOLINGHOLE" x="12" y="1" smashed="yes"/>
 </elements>
 <signals>
-<signal name="12V">
+<signal name="12V" airwireshidden="yes">
 <contactref element="Q9" pad="4"/>
 <contactref element="U1" pad="2"/>
 <contactref element="R21" pad="1"/>
@@ -10230,6 +10230,24 @@ design rules under a new name.</description>
 <via x="5" y="9" extent="1-16" drill="0.35"/>
 <via x="5" y="7" extent="1-16" drill="0.35"/>
 <via x="5" y="5" extent="1-16" drill="0.35"/>
+<polygon width="0.254" layer="16" thermals="no">
+<vertex x="10" y="23"/>
+<vertex x="10" y="15"/>
+<vertex x="16" y="15"/>
+<vertex x="16" y="23"/>
+</polygon>
+<via x="11" y="22" extent="1-16" drill="0.35"/>
+<via x="15" y="22" extent="1-16" drill="0.35"/>
+<via x="13" y="22" extent="1-16" drill="0.35"/>
+<via x="11" y="20" extent="1-16" drill="0.35"/>
+<via x="13" y="20" extent="1-16" drill="0.35"/>
+<via x="15" y="20" extent="1-16" drill="0.35"/>
+<via x="15" y="18" extent="1-16" drill="0.35"/>
+<via x="13" y="18" extent="1-16" drill="0.35"/>
+<via x="11" y="18" extent="1-16" drill="0.35"/>
+<via x="11" y="16" extent="1-16" drill="0.35"/>
+<via x="13" y="16" extent="1-16" drill="0.35"/>
+<via x="15" y="16" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="GND" airwireshidden="yes">
 <contactref element="Q10" pad="3"/>
@@ -10424,7 +10442,7 @@ design rules under a new name.</description>
 <wire x1="11.9" y1="12.1" x2="11.31" y2="12.1" width="0.254" layer="1"/>
 <wire x1="11.31" y1="12.1" x2="10.72" y2="12.69" width="0.254" layer="1"/>
 </signal>
-<signal name="BUCK_SW">
+<signal name="BUCK_SW" airwireshidden="yes">
 <contactref element="U1" pad="10"/>
 <contactref element="R22" pad="2"/>
 <contactref element="C44" pad="2"/>
@@ -10455,6 +10473,24 @@ design rules under a new name.</description>
 <vertex x="12" y="12"/>
 <vertex x="14" y="12"/>
 </polygon>
+<polygon width="0.254" layer="16" thermals="no">
+<vertex x="17" y="23"/>
+<vertex x="17" y="15"/>
+<vertex x="23" y="15"/>
+<vertex x="23" y="23"/>
+</polygon>
+<via x="18" y="22" extent="1-16" drill="0.35"/>
+<via x="20" y="22" extent="1-16" drill="0.35"/>
+<via x="22" y="22" extent="1-16" drill="0.35"/>
+<via x="22" y="20" extent="1-16" drill="0.35"/>
+<via x="20" y="20" extent="1-16" drill="0.35"/>
+<via x="18" y="20" extent="1-16" drill="0.35"/>
+<via x="18" y="18" extent="1-16" drill="0.35"/>
+<via x="20" y="18" extent="1-16" drill="0.35"/>
+<via x="22" y="18" extent="1-16" drill="0.35"/>
+<via x="22" y="16" extent="1-16" drill="0.35"/>
+<via x="20" y="16" extent="1-16" drill="0.35"/>
+<via x="18" y="16" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$9">
 <contactref element="R17" pad="1"/>
@@ -10678,6 +10714,24 @@ design rules under a new name.</description>
 <approved hash="7,39,90375f5211baa6c4"/>
 <approved hash="7,39,9662ded6f63dc6b2"/>
 <approved hash="7,39,32cee036e00632fe"/>
+<approved hash="19,1,ffa2fe27e7c1e644"/>
+<approved hash="19,1,1a1a181ff9f9fbfc"/>
+<approved hash="19,1,1f9a1e1ffff9fe7c"/>
+<approved hash="19,1,fa22f827e1c1e3c4"/>
+<approved hash="19,1,a2ffa001c1e7c319"/>
+<approved hash="19,1,9a1f9819f9fffbf9"/>
+<approved hash="19,1,22fa2007c1e1c31c"/>
+<approved hash="19,1,c2c2c03fd9d9db24"/>
+<approved hash="19,1,9f9f9e19fffffe79"/>
+<approved hash="19,1,0280007f8d998f66"/>
+<approved hash="19,1,ba1db81ff5f9f7fb"/>
+<approved hash="19,1,1a1c181785f187fa"/>
+<approved hash="19,1,3a603867b581b786"/>
+<approved hash="19,1,82fd8007cde1cf1b"/>
+<approved hash="19,1,22fc200fbde9bf1a"/>
+<approved hash="19,1,1f9c1e1783f1827a"/>
+<approved hash="19,1,3fe03e67b381b206"/>
+<approved hash="19,1,bf9dbe1ff3f9f27b"/>
 </errors>
 </board>
 </drawing>
