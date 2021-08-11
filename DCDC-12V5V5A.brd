@@ -200,6 +200,8 @@
 Andriy Golovnya</text>
 <text x="24.7" y="15" size="0.8128" layer="21" font="vector" ratio="12">(c) 2021
 Andriy Golovnya</text>
+<text x="4.1" y="11.1" size="0.8128" layer="22" font="vector" rot="MR270">INPUT</text>
+<text x="35.7" y="13.5" size="0.8128" layer="22" font="vector" rot="MR270">OUTPUT</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
