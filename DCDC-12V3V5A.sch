@@ -57283,7 +57283,7 @@ Source: www.kingbright.com</description>
 <text x="195.58" y="7.62" size="2.54" layer="94">DCDC-12V3V5A-0010</text>
 <text x="165.1" y="25.4" size="2.54" layer="94">DC-DC Buck Converter with fixed output 3.3V
 (c) Andriy Golovnya</text>
-<text x="106.68" y="137.16" size="2.54" layer="94">12V to 5V Conversion</text>
+<text x="106.68" y="137.16" size="2.54" layer="94">12V to 3.3V Conversion</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
