@@ -6,4 +6,12 @@ Features:
 <li>Input: <b>12V (6V-24V)</b></li>
 <li>Output: <b>5V</b></li>
 <li>Current: <b>5A (peak 10A)</b></li>
-</ul>
+</ul><br/><br/>
+
+<b>DCDC-12V3V5A</b> - DC-DC Buck Converter<br/>
+Features:
+<ul>
+<li>Input: <b>12V (5V-24V)</b></li>
+<li>Output: <b>3.3V</b></li>
+<li>Current: <b>5A (peak 10A)</b></li>
+</ul><br/><br/>
