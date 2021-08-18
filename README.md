@@ -1,7 +1,7 @@
 # DC-DC project
 
-DC-DC Converters.
-This project is intended to implement some simple DC-DC buck converters from basic components.
+This project is intended to implement some simple flexible DC-DC buck converters from basic components.
+This project features Excel based component's values calculator.
 
 ## DCDC-12V5V5A
 
@@ -19,6 +19,7 @@ Features:
 - Output: **5V**
 - Current: **5A (peak 10A)**
 - Efficiency: **up to 90%**
+- Board size: **40x23mm**
 
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
@@ -39,6 +40,7 @@ Features:
 - Output: **3.3V**
 - Current: **5A (peak 10A)**
 - Efficiency: **up to 90%**
+- Board size: **40x23mm**
 
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
@@ -59,6 +61,7 @@ Features:
 - Output: **12V**
 - Current: **5A (peak 10A)**
 - Efficiency: **up to 90%**
+- Board size: **40x23mm**
 
 CAM files are available.
 BoM and PnP files for JLCPCB are available.

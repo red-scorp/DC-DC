@@ -7,7 +7,8 @@ Features:
 <li>Output: <b>5V</b></li>
 <li>Current: <b>5A (peak 10A)</b></li>
 <li>Efficiency: <b>up to 90%</b></li>
-</ul><br/><br/>
+<li>Board size: <b>40x23mm</b></li>
+</ul><br/>
 
 <b>DCDC-12V3V5A</b> - DC-DC Buck Converter<br/>
 Features:
@@ -16,7 +17,8 @@ Features:
 <li>Output: <b>3.3V</b></li>
 <li>Current: <b>5A (peak 10A)</b></li>
 <li>Efficiency: <b>up to 90%</b></li>
-</ul><br/><br/>
+<li>Board size: <b>40x23mm</b></li>
+</ul><br/>
 
 <b>DCDC-17V12V5A</b> - DC-DC Buck Converter<br/>
 Features:
@@ -25,4 +27,5 @@ Features:
 <li>Output: <b>12V</b></li>
 <li>Current: <b>5A (peak 10A)</b></li>
 <li>Efficiency: <b>up to 90%</b></li>
-</ul><br/><br/>
+<li>Board size: <b>40x23mm</b></li>
+</ul><br/>
