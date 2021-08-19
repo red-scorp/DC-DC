@@ -6,6 +6,7 @@ Features:
 <li>Input: <b>12V (6V-24V)</b></li>
 <li>Output: <b>5V</b></li>
 <li>Current: <b>5A (peak 10A)</b></li>
+<li>Switching: <b>500kHz</b></li>
 <li>Efficiency: <b>up to 90%</b></li>
 <li>Board size: <b>40x23mm</b></li>
 </ul><br/>
@@ -16,6 +17,7 @@ Features:
 <li>Input: <b>12V (5V-24V)</b></li>
 <li>Output: <b>3.3V</b></li>
 <li>Current: <b>5A (peak 10A)</b></li>
+<li>Switching: <b>600kHz</b></li>
 <li>Efficiency: <b>up to 90%</b></li>
 <li>Board size: <b>40x23mm</b></li>
 </ul><br/>
@@ -26,6 +28,7 @@ Features:
 <li>Input: <b>17V (14V-24V)</b></li>
 <li>Output: <b>12V</b></li>
 <li>Current: <b>5A (peak 10A)</b></li>
+<li>Switching: <b>500kHz</b></li>
 <li>Efficiency: <b>up to 90%</b></li>
 <li>Board size: <b>40x23mm</b></li>
 </ul><br/>

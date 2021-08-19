@@ -18,6 +18,7 @@ Features:
 - Input: **12V (6V-24V)**
 - Output: **5V**
 - Current: **5A (peak 10A)**
+- Switching: **500kHz**
 - Efficiency: **up to 90%**
 - Board size: **40x23mm**
 
@@ -39,6 +40,7 @@ Features:
 - Input: **12V (5V-24V)**
 - Output: **3.3V**
 - Current: **5A (peak 10A)**
+- Switching: **600kHz**
 - Efficiency: **up to 90%**
 - Board size: **40x23mm**
 
@@ -60,6 +62,7 @@ Features:
 - Input: **17V (14V-24V)**
 - Output: **12V**
 - Current: **5A (peak 10A)**
+- Switching: **500kHz**
 - Efficiency: **up to 90%**
 - Board size: **40x23mm**
 
