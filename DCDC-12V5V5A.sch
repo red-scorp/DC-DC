@@ -8773,102 +8773,6 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Connector" urn="urn:adsk.eagle:library:16378166">
-<description>&lt;b&gt;Pin Headers,Terminal blocks, D-Sub, Backplane, FFC/FPC, Socket</description>
-<packages>
-<package name="TERMBLK_508-2N" urn="urn:adsk.eagle:footprint:24957600/1" library_version="11">
-<pad name="1" x="0" y="0" drill="1.2"/>
-<pad name="2" x="5.08" y="0" drill="1.2"/>
-<wire x1="7.745" y1="4.25" x2="7.745" y2="-4.25" width="0.1524" layer="21"/>
-<wire x1="7.745" y1="-4.25" x2="-2.665" y2="-4.25" width="0.1524" layer="21"/>
-<wire x1="-2.665" y1="-4.25" x2="-2.665" y2="4.25" width="0.1524" layer="21"/>
-<wire x1="-2.665" y1="4.25" x2="7.745" y2="4.25" width="0.1524" layer="21"/>
-<text x="2.54" y="-6.1" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="2.54" y="4.6" size="1.778" layer="27" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="TERMBLK_254-2N" urn="urn:adsk.eagle:footprint:24957601/1" library_version="11">
-<pad name="1" x="0" y="0" drill="1.2"/>
-<pad name="2" x="2.54" y="0" drill="1.2"/>
-<wire x1="4.165" y1="3.4" x2="4.165" y2="-3.4" width="0.1524" layer="21"/>
-<wire x1="4.165" y1="-3.4" x2="-1.625" y2="-3.4" width="0.1524" layer="21"/>
-<wire x1="-1.625" y1="-3.4" x2="-1.625" y2="3.4" width="0.1524" layer="21"/>
-<wire x1="-1.625" y1="3.4" x2="4.165" y2="3.4" width="0.1524" layer="21"/>
-<text x="1.27" y="-5.4" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="1.27" y="3.9" size="1.778" layer="27" align="bottom-center">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="TERMBLK_508-2N" urn="urn:adsk.eagle:package:24957621/1" type="model" library_version="11">
-<packageinstances>
-<packageinstance name="TERMBLK_508-2N"/>
-</packageinstances>
-</package3d>
-<package3d name="TERMBLK_254-2N" urn="urn:adsk.eagle:package:24957623/1" type="model" library_version="11">
-<packageinstances>
-<packageinstance name="TERMBLK_254-2N"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="TERMBLK_2" urn="urn:adsk.eagle:symbol:24957587/1" library_version="11">
-<wire x1="-2.6" y1="5.08" x2="2.6" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="2.6" y1="5.08" x2="2.6" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.6" y1="-2.54" x2="-2.6" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.6" y1="-2.54" x2="-2.6" y2="5.08" width="0.1524" layer="94"/>
-<pin name="1" x="-5.15" y="2.54" length="short"/>
-<pin name="2" x="-5.15" y="0" length="short"/>
-<text x="0" y="-4" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="0" y="6.54" size="1.778" layer="95" align="center">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="2828XX-2" urn="urn:adsk.eagle:component:24957692/1" library_version="11">
-<description>2 Position Wire to Board Terminal Block Horizontal with Board
-&lt;br&gt;&lt;a href="https://www.te.com.cn/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Catalog+Section%7F1308389_EUROSTYLE_TERMINAL_BLOCKS%7F0607%7Fpdf%7FEnglish%7FENG_CS_1308389_EUROSTYLE_TERMINAL_BLOCKS_0607.pdf%7F2-282837-5"&gt;Datasheet&lt;/a&gt;&lt;br&gt;</description>
-<gates>
-<gate name="G$1" symbol="TERMBLK_2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="282837-2" package="TERMBLK_508-2N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24957621/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CATEGORY" value="Connector" constant="no"/>
-<attribute name="DESCRIPTION" value="  2 Position Wire to Board Terminal Block Horizontal with Board 5.08 mm Through Hole" constant="no"/>
-<attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
-<attribute name="MPN" value="282837-2" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-40°C to +105°C" constant="no"/>
-<attribute name="PART_STATUS" value="ACTIVE" constant="no"/>
-<attribute name="ROHS_COMPLIANCE" value="RoHS Compliant" constant="no"/>
-<attribute name="SERIES" value="282837" constant="no"/>
-<attribute name="SUBCATEGORY" value="Terminal Block" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value=" Side Wire Entry" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="282834-2" package="TERMBLK_254-2N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24957623/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="_my_logos">
 <description>Logo images</description>
 <packages>
@@ -57188,6 +57092,239 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Wurth_Connectors_WR-TBL Rising Cage Clamp" urn="urn:adsk.eagle:library:16280519">
+<description>&lt;BR&gt;Wurth Elektronik - Connectors - Terminal Blocks - WR-TBL  Rising Cage Clamp &lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2020a, 2020-01-07&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="691213510002" urn="urn:adsk.eagle:footprint:16248139/1" library_version="2">
+<description>&lt;b&gt;WR-TBL Serie 2135 - 5.08 mm Horizontal Entry Modular w. Rising Cage Clamp
+&lt;br&gt;&lt;/b&gt;Max Height =10mm , Pitch 5.08mm , 2 Pins</description>
+<pad name="1" x="-2.54" y="0" drill="1.3"/>
+<pad name="2" x="2.54" y="0" drill="1.3"/>
+<wire x1="-5.08" y1="-4.05" x2="5.08" y2="-4.05" width="0.1" layer="51"/>
+<wire x1="-5.08" y1="4.05" x2="5.08" y2="4.05" width="0.1" layer="51"/>
+<wire x1="-5.08" y1="4.05" x2="-5.08" y2="1.9" width="0.1" layer="51"/>
+<wire x1="-5.08" y1="1.39" x2="-5.08" y2="-4.05" width="0.1" layer="51"/>
+<wire x1="5.08" y1="4.05" x2="5.08" y2="-2.94" width="0.1" layer="51"/>
+<wire x1="5.08" y1="-3.45" x2="5.08" y2="-4.05" width="0.1" layer="51"/>
+<wire x1="-5.68" y1="2.16" x2="-5.68" y2="1.13" width="0.1" layer="51"/>
+<wire x1="5.68" y1="-2.68" x2="5.68" y2="-3.71" width="0.1" layer="51"/>
+<wire x1="-5.08" y1="1.9" x2="-5.68" y2="2.16" width="0.1" layer="51"/>
+<wire x1="-5.68" y1="1.13" x2="-5.08" y2="1.39" width="0.1" layer="51"/>
+<wire x1="5.08" y1="-2.94" x2="5.68" y2="-2.68" width="0.1" layer="51"/>
+<wire x1="5.08" y1="-3.45" x2="5.68" y2="-3.71" width="0.1" layer="51"/>
+<wire x1="-5.18" y1="4.15" x2="5.18" y2="4.15" width="0.2" layer="21"/>
+<wire x1="5.18" y1="4.15" x2="5.18" y2="-2.84" width="0.2" layer="21"/>
+<wire x1="5.18" y1="-2.84" x2="5.78" y2="-2.56" width="0.2" layer="21"/>
+<wire x1="5.78" y1="-2.56" x2="5.78" y2="-3.81" width="0.2" layer="21"/>
+<wire x1="5.78" y1="-3.81" x2="5.18" y2="-3.55" width="0.2" layer="21"/>
+<wire x1="5.18" y1="-3.55" x2="5.18" y2="-4.15" width="0.2" layer="21"/>
+<wire x1="5.18" y1="-4.15" x2="-5.18" y2="-4.15" width="0.2" layer="21"/>
+<wire x1="-5.18" y1="-4.15" x2="-5.18" y2="1.29" width="0.2" layer="21"/>
+<wire x1="-5.18" y1="1.29" x2="-5.78" y2="1.03" width="0.2" layer="21"/>
+<wire x1="-5.78" y1="1.03" x2="-5.78" y2="2.26" width="0.2" layer="21"/>
+<wire x1="-5.78" y1="2.26" x2="-5.18" y2="2" width="0.2" layer="21"/>
+<wire x1="-5.18" y1="2" x2="-5.18" y2="4.15" width="0.2" layer="21"/>
+<text x="0" y="5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-6" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6" y="4.35"/>
+<vertex x="6" y="4.35"/>
+<vertex x="6" y="-4.35"/>
+<vertex x="-6" y="-4.35"/>
+</polygon>
+<circle x="-3.7" y="1.7" radius="0.1" width="0.4" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="691213510002" urn="urn:adsk.eagle:package:16248575/2" type="model" library_version="2">
+<description>&lt;b&gt;WR-TBL Serie 2135 - 5.08 mm Horizontal Entry Modular w. Rising Cage Clamp
+&lt;br&gt;&lt;/b&gt;Max Height =10mm , Pitch 5.08mm , 2 Pins</description>
+<packageinstances>
+<packageinstance name="691213510002"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="2PINS_ENTRY" urn="urn:adsk.eagle:symbol:16280530/1" library_version="2">
+<pin name="1" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<wire x1="-3.81" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.778" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.778" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-1.016" x2="-2.794" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="0.254" y1="-1.016" x2="-0.254" y2="-1.524" width="0.1524" layer="94"/>
+<circle x="-2.54" y="-1.27" radius="0.508" width="0.254" layer="94"/>
+<circle x="0" y="-1.27" radius="0.508" width="0.254" layer="94"/>
+<text x="-4.88" y="-0.922" size="1.016" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-4.83" y="-2.58" size="1.016" layer="96" align="bottom-right">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="691213510002" urn="urn:adsk.eagle:component:16280664/1" prefix="J" uservalue="yes" library_version="2">
+<description>&lt;b&gt;WR-TBL Serie 2135 - 5.08 mm Horizontal Entry Modular w. Rising Cage Clamp &lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;
+KIND PROPERTIES &lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+Pitch 5.08 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES &lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Plating Tin over Nickel 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Terminal Screw Material Steel 
+&lt;br&gt;Terminal Screw Plating Zinc 
+&lt;br&gt;Wire Guard Material Copper Alloy 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION &lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;Operating Temperature -30 up to +120 °C 
+&lt;br&gt;Compliance ROHS &amp; Reach 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES &lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;IR UL 14 A 
+&lt;br&gt;IR VDE 14 A 
+&lt;br&gt;Working Voltage [UL] 300 V (AC) 
+&lt;br&gt;Working Voltage [VDE] 250 V (AC) 
+&lt;br&gt;Withstanding Voltage [UL] 1600 V (AC) 
+&lt;br&gt;Withstanding Voltage [VDE] 2000 V (AC) 
+&lt;br&gt;Contact Resistance 20 mΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES &lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;Wire Strip Length 6 
+&lt;br&gt;Screw M3 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;CERTIFICATION &lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;UL Approval E150931 
+&lt;br&gt;VDE Approval 40021366 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES &lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;Packaging Box 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32805v209%20Family_WR-TBL2_Series2135.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32805v209%20Family_WR-TBL2_Series2135.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORIZONTAL_ENTRY_MODULAR_69121351000x/"&gt;https://www.we-online.com/catalog/en/TBL_5_08_2135_HORIZONTAL_ENTRY_MODULAR_69121351000x/&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2019-11-26&lt;br&gt;
+&lt;/b&gt;2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="2PINS_ENTRY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="691213510002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16248575/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="IR-UL" value="14A" constant="no"/>
+<attribute name="IR-VDE" value="14A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 691213510002 " constant="no"/>
+<attribute name="PINS" value=" 2 " constant="no"/>
+<attribute name="PITCH" value="5.08mm" constant="no"/>
+<attribute name="TYPE" value="Horizontal" constant="no"/>
+<attribute name="WIRE" value="14 to 30 (AWG) 2.08 to 0.0509 (mm²)" constant="no"/>
+<attribute name="WORKING-VOLTAGE-UL" value="300V (AC)" constant="no"/>
+<attribute name="WORKING-VOLTAGE-VDE" value="250V (AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -57227,9 +57364,8 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY45" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND52" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY46" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="68k"/>
-<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3k"/>
-<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3k"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="75k"/>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="GND53" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="200pF"/>
@@ -57259,8 +57395,8 @@ Source: www.kingbright.com</description>
 <part name="GND65" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND66" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="CN1" library="con-jack" library_urn="urn:adsk.eagle:library:154" deviceset="JACK-PLUG" device="1" package3d_urn="urn:adsk.eagle:package:7494/1"/>
-<part name="CN2" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="2828XX-2" device="282834-2" package3d_urn="urn:adsk.eagle:package:24957623/1"/>
-<part name="CN3" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="2828XX-2" device="282834-2" package3d_urn="urn:adsk.eagle:package:24957623/1"/>
+<part name="CN2" library="Wurth_Connectors_WR-TBL Rising Cage Clamp" library_urn="urn:adsk.eagle:library:16280519" deviceset="691213510002" device="" package3d_urn="urn:adsk.eagle:package:16248575/2"/>
+<part name="CN3" library="Wurth_Connectors_WR-TBL Rising Cage Clamp" library_urn="urn:adsk.eagle:library:16280519" deviceset="691213510002" device="" package3d_urn="urn:adsk.eagle:package:16248575/2"/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
@@ -57270,18 +57406,21 @@ Source: www.kingbright.com</description>
 <part name="LOGO1" library="_my_logos" deviceset="RSNURL" device="_QR_8MM" value="RSNURL_QR_8MM"/>
 <part name="LOGO2" library="_my_logos" deviceset="MFDECLOGO" device="_L_10MM" value="MFDECLOGO_L_10MM"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="GREEN"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3k"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2k"/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="HOLE1" library="_my_fiducia" deviceset="TOOLINGHOLE" device=""/>
 <part name="HOLE2" library="_my_fiducia" deviceset="TOOLINGHOLE" device=""/>
 <part name="HOLE3" library="_my_fiducia" deviceset="TOOLINGHOLE" device=""/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1nF"/>
+<part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="256.54" y="7.62" size="2.54" layer="94">1.0</text>
-<text x="195.58" y="7.62" size="2.54" layer="94">DCDC-12V5V5A-0010</text>
+<text x="195.58" y="7.62" size="2.54" layer="94">DCDC-12V5V5A-0011</text>
 <text x="165.1" y="25.4" size="2.54" layer="94">DC-DC Buck Converter with fixed output 5V
 (c) Andriy Golovnya</text>
 <text x="106.68" y="137.16" size="2.54" layer="94">12V to 5V Conversion</text>
@@ -57396,10 +57535,6 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="176.3014" y="102.87" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="181.102" y="102.87" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R18" gate="G$1" x="177.8" y="96.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="176.3014" y="92.71" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="181.102" y="92.71" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="R19" gate="G$1" x="177.8" y="86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="176.3014" y="82.55" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="181.102" y="82.55" size="1.778" layer="96" rot="R90"/>
@@ -57411,9 +57546,9 @@ Source: www.kingbright.com</description>
 <instance part="GND53" gate="1" x="177.8" y="68.58" smashed="yes">
 <attribute name="VALUE" x="177.8" y="68.326" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C41" gate="G$1" x="170.18" y="96.52" smashed="yes">
-<attribute name="NAME" x="171.704" y="96.901" size="1.778" layer="95"/>
-<attribute name="VALUE" x="171.704" y="91.821" size="1.778" layer="96"/>
+<instance part="C41" gate="G$1" x="170.18" y="99.06" smashed="yes">
+<attribute name="NAME" x="171.704" y="99.441" size="1.778" layer="95"/>
+<attribute name="VALUE" x="171.704" y="94.361" size="1.778" layer="96"/>
 </instance>
 <instance part="C42" gate="G$1" x="91.44" y="104.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="91.059" y="105.664" size="1.778" layer="95" rot="R90"/>
@@ -57499,13 +57634,13 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="15.24" y="137.16" size="1.778" layer="95"/>
 <attribute name="VALUE" x="15.24" y="127" size="1.778" layer="96"/>
 </instance>
-<instance part="CN2" gate="G$1" x="22.86" y="109.22" smashed="yes" rot="R180">
-<attribute name="NAME" x="22.86" y="113.22" size="1.778" layer="95" rot="R180" align="center"/>
-<attribute name="VALUE" x="22.86" y="102.68" size="1.778" layer="95" rot="R180" align="center"/>
+<instance part="CN2" gate="G$1" x="22.86" y="109.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="24.32" y="114.3" size="1.778" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="16.32" y="109.22" size="1.778" layer="95" rot="R90" align="center"/>
 </instance>
-<instance part="CN3" gate="G$1" x="241.3" y="109.22" smashed="yes" rot="MR180">
-<attribute name="NAME" x="241.3" y="113.22" size="1.778" layer="95" rot="MR180" align="center"/>
-<attribute name="VALUE" x="241.3" y="102.68" size="1.778" layer="95" rot="MR180" align="center"/>
+<instance part="CN3" gate="G$1" x="241.3" y="109.22" smashed="yes" rot="MR90">
+<attribute name="NAME" x="242.38" y="109.22" size="1.778" layer="95" rot="MR90" align="center"/>
+<attribute name="VALUE" x="247.84" y="109.22" size="1.778" layer="95" rot="MR90" align="center"/>
 </instance>
 <instance part="GND1" gate="1" x="30.48" y="104.14" smashed="yes">
 <attribute name="VALUE" x="30.48" y="103.886" size="1.778" layer="96" align="top-center"/>
@@ -57544,6 +57679,16 @@ Source: www.kingbright.com</description>
 <instance part="HOLE1" gate="G$1" x="157.48" y="25.4" smashed="yes"/>
 <instance part="HOLE2" gate="G$1" x="149.86" y="25.4" smashed="yes"/>
 <instance part="HOLE3" gate="G$1" x="142.24" y="25.4" smashed="yes"/>
+<instance part="C1" gate="G$1" x="238.76" y="81.28" smashed="yes">
+<attribute name="NAME" x="240.284" y="81.661" size="1.778" layer="95"/>
+<attribute name="VALUE" x="240.284" y="76.581" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY9" gate="G$1" x="238.76" y="86.36" smashed="yes">
+<attribute name="VALUE" x="238.76" y="89.154" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND5" gate="1" x="238.76" y="71.12" smashed="yes">
+<attribute name="VALUE" x="238.76" y="70.866" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -57581,7 +57726,7 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="SUPPLY4" gate="G$1" pin="VIN"/>
 <pinref part="CN2" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="109.22" x2="28.01" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="109.22" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CN1" gate="G$1" pin="3"/>
@@ -57692,7 +57837,7 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="CN2" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="106.68" x2="28.01" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CN1" gate="G$1" pin="1"/>
@@ -57706,11 +57851,16 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="CN3" gate="G$1" pin="1"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="236.15" y1="106.68" x2="233.68" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="106.68" x2="233.68" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="73.66" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -57737,7 +57887,7 @@ Source: www.kingbright.com</description>
 <wire x1="177.8" y1="111.76" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
 <junction x="177.8" y="111.76"/>
 <pinref part="C41" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="99.06" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="101.6" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
 <junction x="170.18" y="111.76"/>
 </segment>
 <segment>
@@ -57773,11 +57923,16 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="SUPPLY6" gate="G$1" pin="5V"/>
 <pinref part="CN3" gate="G$1" pin="2"/>
-<wire x1="233.68" y1="109.22" x2="236.15" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="109.22" x2="236.22" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <pinref part="SUPPLY7" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="SUPPLY9" gate="G$1" pin="5V"/>
+<wire x1="238.76" y1="83.82" x2="238.76" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BUCK_LG" class="0">
@@ -57815,18 +57970,6 @@ Source: www.kingbright.com</description>
 <wire x1="154.94" y1="111.76" x2="147.32" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="R17" gate="G$1" pin="1"/>
-<pinref part="R18" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="R18" gate="G$1" pin="1"/>
-<pinref part="R19" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="BUCK_FB" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="FB"/>
@@ -57834,53 +57977,54 @@ Source: www.kingbright.com</description>
 <label x="86.36" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R19" gate="G$1" pin="1"/>
-<pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="81.28" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
-<junction x="177.8" y="81.28"/>
-<label x="157.48" y="81.28" size="1.778" layer="95"/>
+<label x="157.48" y="91.44" size="1.778" layer="95"/>
 <pinref part="C41" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="91.44" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
-<junction x="170.18" y="81.28"/>
-<wire x1="170.18" y1="81.28" x2="160.02" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="93.98" x2="170.18" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="91.44" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="91.44" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
+<junction x="170.18" y="91.44"/>
+<junction x="177.8" y="91.44"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="BUCK_SS" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SS"/>
 <pinref part="C42" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="104.14" x2="96.52" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="BUCK_EN" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="EN"/>
 <pinref part="C43" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="119.38" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="BUCK_RON" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="RON"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="109.22" x2="91.44" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="BUCK_VCC" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="127" x2="96.52" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="BUCK_BST" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="BST"/>
 <pinref part="C44" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="114.3" x2="134.62" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="BUCK_ILIM" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="ILIM"/>
 <pinref part="R22" gate="G$1" pin="1"/>
@@ -57891,6 +58035,12 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="R1" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="R20" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
