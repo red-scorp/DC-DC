@@ -20,7 +20,7 @@ Features:
 - Current: **5A (peak 10A)**
 - Switching: **500kHz**
 - Efficiency: **up to 90%**
-- Board size: **40x23mm**
+- Board size: **40x24mm**
 
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
@@ -42,7 +42,7 @@ Features:
 - Current: **5A (peak 10A)**
 - Switching: **600kHz**
 - Efficiency: **up to 90%**
-- Board size: **40x23mm**
+- Board size: **40x24mm**
 
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
@@ -64,7 +64,7 @@ Features:
 - Current: **5A (peak 10A)**
 - Switching: **500kHz**
 - Efficiency: **up to 90%**
-- Board size: **40x23mm**
+- Board size: **40x24mm**
 
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
