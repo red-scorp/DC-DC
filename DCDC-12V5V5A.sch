@@ -57397,10 +57397,8 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <part name="CN1" library="con-jack" library_urn="urn:adsk.eagle:library:154" deviceset="JACK-PLUG" device="1" package3d_urn="urn:adsk.eagle:package:7494/1"/>
 <part name="CN2" library="Wurth_Connectors_WR-TBL Rising Cage Clamp" library_urn="urn:adsk.eagle:library:16280519" deviceset="691213510002" device="" package3d_urn="urn:adsk.eagle:package:16248575/2"/>
 <part name="CN3" library="Wurth_Connectors_WR-TBL Rising Cage Clamp" library_urn="urn:adsk.eagle:library:16280519" deviceset="691213510002" device="" package3d_urn="urn:adsk.eagle:package:16248575/2"/>
-<part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
-<part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="LOGO1" library="_my_logos" deviceset="RSNURL" device="_QR_8MM" value="RSNURL_QR_8MM"/>
@@ -57415,6 +57413,8 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1nF"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
+<part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -57634,25 +57634,19 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <attribute name="NAME" x="15.24" y="137.16" size="1.778" layer="95"/>
 <attribute name="VALUE" x="15.24" y="127" size="1.778" layer="96"/>
 </instance>
-<instance part="CN2" gate="G$1" x="22.86" y="109.22" smashed="yes" rot="R90">
-<attribute name="NAME" x="24.32" y="114.3" size="1.778" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="16.32" y="109.22" size="1.778" layer="95" rot="R90" align="center"/>
+<instance part="CN2" gate="G$1" x="22.86" y="109.22" smashed="yes" rot="MR270">
+<attribute name="NAME" x="24.32" y="104.14" size="1.778" layer="95" rot="MR270" align="center"/>
+<attribute name="VALUE" x="16.32" y="109.22" size="1.778" layer="95" rot="MR270" align="center"/>
 </instance>
 <instance part="CN3" gate="G$1" x="241.3" y="109.22" smashed="yes" rot="MR90">
 <attribute name="NAME" x="242.38" y="109.22" size="1.778" layer="95" rot="MR90" align="center"/>
 <attribute name="VALUE" x="247.84" y="109.22" size="1.778" layer="95" rot="MR90" align="center"/>
-</instance>
-<instance part="GND1" gate="1" x="30.48" y="104.14" smashed="yes">
-<attribute name="VALUE" x="30.48" y="103.886" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND2" gate="1" x="30.48" y="127" smashed="yes">
 <attribute name="VALUE" x="30.48" y="126.746" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="30.48" y="134.62" smashed="yes">
 <attribute name="VALUE" x="30.48" y="137.414" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY4" gate="G$1" x="30.48" y="109.22" smashed="yes">
-<attribute name="VALUE" x="30.48" y="112.014" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="GND3" gate="1" x="233.68" y="104.14" smashed="yes">
 <attribute name="VALUE" x="233.68" y="103.886" size="1.778" layer="96" align="top-center"/>
@@ -57689,6 +57683,12 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <instance part="GND5" gate="1" x="238.76" y="71.12" smashed="yes">
 <attribute name="VALUE" x="238.76" y="70.866" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="SUPPLY4" gate="G$1" x="30.48" y="111.76" smashed="yes">
+<attribute name="VALUE" x="30.48" y="114.554" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND1" gate="1" x="30.48" y="106.68" smashed="yes">
+<attribute name="VALUE" x="30.48" y="106.426" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -57724,14 +57724,14 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <pinref part="SUPPLY5" gate="G$1" pin="VIN"/>
 </segment>
 <segment>
-<pinref part="SUPPLY4" gate="G$1" pin="VIN"/>
-<pinref part="CN2" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="109.22" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="CN1" gate="G$1" pin="3"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VIN"/>
 <wire x1="27.94" y1="134.62" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="SUPPLY4" gate="G$1" pin="VIN"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -57835,11 +57835,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <pinref part="GND66" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="CN2" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="CN1" gate="G$1" pin="1"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="27.94" y1="129.54" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
@@ -57861,6 +57856,11 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <pinref part="GND5" gate="1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="73.66" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="CN2" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="109.22" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="5V" class="0">
