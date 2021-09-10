@@ -57268,6 +57268,166 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 </deviceset>
 </devicesets>
 </library>
+<library name="_my_jumpers">
+<description>Fancy jumpers</description>
+<packages>
+<package name="SJ">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
+<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
+<text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
+</package>
+<package name="SJW">
+<description>&lt;b&gt;Wide Solder jumper&lt;/b&gt;</description>
+<wire x1="1.905" y1="-1.524" x2="-1.905" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.524" x2="2.159" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="1.27" x2="-1.905" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="-1.27" x2="-1.905" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.905" y1="-1.524" x2="2.159" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.159" y1="-1.27" x2="2.159" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="-1.27" x2="-2.159" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.524" x2="1.905" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="1.524" y1="0" x2="2.032" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.524" y1="0" x2="-2.032" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51" curve="180"/>
+<smd name="1" x="-1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="2" x="1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="-2.159" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="1" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="0.762" y1="-0.762" x2="1.016" y2="0.762" layer="51"/>
+<rectangle x1="1.016" y1="-0.635" x2="1.27" y2="0.635" layer="51"/>
+<rectangle x1="1.27" y1="-0.508" x2="1.397" y2="0.508" layer="51"/>
+<rectangle x1="1.397" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.016" y1="-0.762" x2="-0.762" y2="0.762" layer="51"/>
+<rectangle x1="-1.27" y1="-0.635" x2="-1.016" y2="0.635" layer="51"/>
+<rectangle x1="-1.397" y1="-0.508" x2="-1.27" y2="0.508" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.397" y2="0.254" layer="51"/>
+<rectangle x1="0.9652" y1="-0.7112" x2="1.0922" y2="-0.5842" layer="51"/>
+<rectangle x1="1.3462" y1="-0.3556" x2="1.4732" y2="-0.2286" layer="51"/>
+<rectangle x1="1.3462" y1="0.2032" x2="1.4732" y2="0.3302" layer="51"/>
+<rectangle x1="0.9652" y1="0.5842" x2="1.0922" y2="0.7112" layer="51"/>
+<rectangle x1="-1.0922" y1="-0.7112" x2="-0.9652" y2="-0.5842" layer="51"/>
+<rectangle x1="-1.4478" y1="-0.3302" x2="-1.3208" y2="-0.2032" layer="51"/>
+<rectangle x1="-1.4732" y1="0.2032" x2="-1.3462" y2="0.3302" layer="51"/>
+<rectangle x1="-1.1176" y1="0.5842" x2="-0.9906" y2="0.7112" layer="51"/>
+</package>
+<package name="SJF">
+<description>&lt;b&gt;Fancy Solder jumper&lt;/b&gt;</description>
+<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.3302" y1="-0.127" x2="-0.3302" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="0.3302" y1="0.127" x2="0.3302" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-0.8382" y="0" dx="1.016" dy="1.5748" layer="1" cream="no"/>
+<smd name="2" x="0.8382" y="0" dx="1.016" dy="1.5748" layer="1" cream="no"/>
+<text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3302" y1="-0.9144" x2="0.3302" y2="0.9144" layer="29"/>
+<polygon width="0" layer="1">
+<vertex x="0" y="0"/>
+<vertex x="-0.3302" y="0.7874"/>
+<vertex x="-1.3462" y="0.7874"/>
+<vertex x="-1.3462" y="-0.7874"/>
+<vertex x="-0.3302" y="-0.7874"/>
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="0" y="-0.7874"/>
+<vertex x="0.3302" y="0"/>
+<vertex x="0" y="0.7874"/>
+<vertex x="1.3462" y="0.7874"/>
+<vertex x="1.3462" y="-0.7874"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="SJ">
+<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SJ" prefix="SJ" uservalue="yes">
+<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;SJ - simple jumper&lt;/li&gt;
+&lt;li&gt;SJFL - fancy left jumper&lt;/li&gt;
+&lt;li&gt;SJFR - fancy right jumper&lt;/li&gt;
+&lt;li&gt;SJW - wide jumper&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="1" symbol="SJ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SJ">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="W" package="SJW">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FL" package="SJF">
+<connects>
+<connect gate="1" pin="1" pad="2"/>
+<connect gate="1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FR" package="SJF">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -57301,9 +57461,9 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <part name="SUPPLY45" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VOUT" device=""/>
 <part name="GND52" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY46" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="75k"/>
-<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100"/>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1M"/>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="180k"/>
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="620k"/>
 <part name="GND53" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="200pF"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
@@ -57334,7 +57494,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <part name="LOGO1" library="_my_logos" deviceset="RSNURL" device="_QR_8MM" value="RSNURL_QR_8MM"/>
 <part name="LOGO2" library="_my_logos" deviceset="MFDECLOGO" device="_L_10MM" value="MFDECLOGO_L_10MM"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="GREEN"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2k"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VOUT" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="HOLE1" library="_my_fiducia" deviceset="TOOLINGHOLE" device=""/>
@@ -57351,6 +57511,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1M"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VOUT" device=""/>
+<part name="SJ1" library="_my_jumpers" deviceset="SJ" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -57359,7 +57520,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <text x="195.58" y="7.62" size="2.54" layer="94">DCDC-5V5V3A-0010</text>
 <text x="165.1" y="25.4" size="2.54" layer="94">DC-DC Buck-Boost Converter with selectable output 2V-5V
 (c) Andriy Golovnya</text>
-<text x="106.68" y="137.16" size="2.54" layer="94">Vin to Vout Conversion</text>
+<text x="99.06" y="137.16" size="2.54" layer="94">Vin to Vout Conversion</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -57438,8 +57599,8 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <attribute name="NAME" x="144.78" y="104.14" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="140.208" y="99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY45" gate="G$1" x="177.8" y="114.3" smashed="yes">
-<attribute name="VALUE" x="177.8" y="117.094" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY45" gate="G$1" x="172.72" y="119.38" smashed="yes">
+<attribute name="VALUE" x="172.72" y="122.174" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="GND52" gate="1" x="137.16" y="83.82" smashed="yes">
 <attribute name="VALUE" x="137.16" y="83.566" size="1.778" layer="96" align="top-center"/>
@@ -57447,24 +57608,24 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <instance part="SUPPLY46" gate="G$1" x="96.52" y="124.46" smashed="yes">
 <attribute name="VALUE" x="96.52" y="127.254" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R17" gate="G$1" x="177.8" y="106.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="176.3014" y="102.87" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="181.102" y="102.87" size="1.778" layer="96" rot="R90"/>
+<instance part="R17" gate="G$1" x="172.72" y="111.76" smashed="yes" rot="R90">
+<attribute name="NAME" x="171.2214" y="107.95" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="176.022" y="107.95" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R19" gate="G$1" x="177.8" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="176.3014" y="82.55" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="181.102" y="82.55" size="1.778" layer="96" rot="R90"/>
+<instance part="R19" gate="G$1" x="172.72" y="91.44" smashed="yes" rot="R90">
+<attribute name="NAME" x="171.2214" y="87.63" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="176.022" y="87.63" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R20" gate="G$1" x="177.8" y="76.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="176.3014" y="72.39" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="181.102" y="72.39" size="1.778" layer="96" rot="R90"/>
+<instance part="R20" gate="G$1" x="172.72" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="171.2214" y="97.79" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="176.022" y="97.79" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND53" gate="1" x="177.8" y="68.58" smashed="yes">
-<attribute name="VALUE" x="177.8" y="68.326" size="1.778" layer="96" align="top-center"/>
+<instance part="GND53" gate="1" x="172.72" y="83.82" smashed="yes">
+<attribute name="VALUE" x="172.72" y="83.566" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C41" gate="G$1" x="170.18" y="99.06" smashed="yes">
-<attribute name="NAME" x="171.704" y="99.441" size="1.778" layer="95"/>
-<attribute name="VALUE" x="171.704" y="94.361" size="1.778" layer="96"/>
+<instance part="C41" gate="G$1" x="165.1" y="104.14" smashed="yes">
+<attribute name="NAME" x="166.624" y="104.521" size="1.778" layer="95"/>
+<attribute name="VALUE" x="166.624" y="99.441" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="68.58" y="114.3" smashed="yes">
 <attribute name="VALUE" x="68.58" y="117.094" size="1.778" layer="96" align="bottom-center"/>
@@ -57600,6 +57761,10 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <instance part="SUPPLY11" gate="G$1" x="149.86" y="109.22" smashed="yes">
 <attribute name="VALUE" x="149.86" y="112.014" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="SJ1" gate="1" x="180.34" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="177.8" y="99.06" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="184.15" y="99.06" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -57651,10 +57816,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <pinref part="GND52" gate="1" pin="GND"/>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="U1" gate="G$1" pin="PGND"/>
-</segment>
-<segment>
-<pinref part="R20" gate="G$1" pin="1"/>
-<pinref part="GND53" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
@@ -57749,6 +57910,10 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="96.52" y1="96.52" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="GND53" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="VOUT" class="0">
 <segment>
@@ -57769,11 +57934,11 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <segment>
 <pinref part="SUPPLY45" gate="G$1" pin="VOUT"/>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="111.76" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="116.84" x2="172.72" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="C41" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="101.6" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="111.76" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
-<junction x="177.8" y="111.76"/>
+<wire x1="165.1" y1="106.68" x2="165.1" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="116.84" x2="172.72" y2="116.84" width="0.1524" layer="91"/>
+<junction x="172.72" y="116.84"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="1"/>
@@ -57837,21 +58002,22 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 </net>
 <net name="FB" class="0">
 <segment>
-<wire x1="144.78" y1="114.3" x2="134.62" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="114.3" x2="134.62" y2="114.3" width="0.1524" layer="91"/>
 <label x="137.16" y="114.3" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="FB"/>
 </segment>
 <segment>
-<label x="157.48" y="91.44" size="1.778" layer="95"/>
+<label x="157.48" y="96.52" size="1.778" layer="95"/>
 <pinref part="C41" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="93.98" x2="170.18" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="91.44" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="99.06" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="96.52" x2="157.48" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="2"/>
-<pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="91.44" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
-<junction x="170.18" y="91.44"/>
-<junction x="177.8" y="91.44"/>
+<wire x1="165.1" y1="96.52" x2="172.72" y2="96.52" width="0.1524" layer="91"/>
+<junction x="165.1" y="96.52"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<junction x="172.72" y="96.52"/>
+<wire x1="172.72" y1="96.52" x2="180.34" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="SJ1" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -57860,13 +58026,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="R19" gate="G$1" pin="1"/>
-<pinref part="R20" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$3" class="0">
+<net name="L1" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="L1_9"/>
@@ -57875,9 +58035,10 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <wire x1="134.62" y1="104.14" x2="137.16" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="104.14" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
 <junction x="137.16" y="101.6"/>
+<label x="137.16" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="L2" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="L2_7"/>
@@ -57888,9 +58049,10 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <wire x1="134.62" y1="99.06" x2="137.16" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="99.06" x2="137.16" y2="96.52" width="0.1524" layer="91"/>
 <junction x="137.16" y="96.52"/>
+<label x="137.16" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="VINA" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VINA"/>
 <wire x1="99.06" y1="114.3" x2="96.52" y2="114.3" width="0.1524" layer="91"/>
@@ -57904,24 +58066,30 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <wire x1="99.06" y1="106.68" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
 <junction x="96.52" y="106.68"/>
 <pinref part="C2" gate="G$1" pin="1"/>
+<label x="93.98" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="PG" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PG"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="109.22" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
+<label x="134.62" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="106.68" x2="180.34" y2="106.68" width="0.1524" layer="91"/>
+<junction x="172.72" y="106.68"/>
+<pinref part="SJ1" gate="1" pin="2"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,99.06,127,U1,VCC,N$19,,,"/>
-<approved hash="104,1,134.62,91.44,U1,EXP,GND,,,"/>
-<approved hash="104,1,134.62,88.9,U1,PGND,GND,,,"/>
-<approved hash="104,1,134.62,86.36,U1,SGND_5,GND,,,"/>
-<approved hash="104,1,134.62,83.82,U1,SGND_9,GND,,,"/>
 <approved hash="113,1,131.976,90.066,FRAME2,,,,,"/>
 <approved hash="113,1,23.4527,133.69,CN1,,,,,"/>
 </errors>
