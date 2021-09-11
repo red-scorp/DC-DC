@@ -1,6 +1,6 @@
 # DC-DC project
 
-This project is intended to implement some simple flexible DC-DC buck converters from basic components.
+This project is intended to implement some simple flexible DC-DC buck and book-boost converters from basic components.
 This project features Excel based component's values calculator.
 
 ## DCDC-12V5V5A
@@ -63,6 +63,28 @@ Features:
 - Output: **12V**
 - Current: **5A (peak 10A)**
 - Switching: **500kHz**
+- Efficiency: **up to 90%**
+- Board size: **40x24mm**
+
+CAM files are available.
+BoM and PnP files for JLCPCB are available.
+
+## DCDC-5V5V3A
+
+**DCDC-5V5V3A** is simple DC-DC step-up/down converter with selectable fixed output 3.3/5V.
+
+Preview:
+
+![DCDC-5V5V3A preview](DCDC-5V5V3A.png)
+
+[Schematics in PDF format](DCDC-5V5V3A.pdf)
+
+Features:
+
+- Input: **1.8-5.5V**
+- Output: **3.3/5V (select)**
+- Current: **3A (peak 5A)**
+- Switching: **2.4MHz**
 - Efficiency: **up to 90%**
 - Board size: **40x24mm**
 
