@@ -206,8 +206,8 @@
 Andriy Golovnya</text>
 <text x="17" y="14" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">(c) 2021
 Andriy Golovnya</text>
-<text x="29" y="3.1" size="0.8128" layer="21" font="vector">Close = 3.3V
-Open = 5V</text>
+<text x="23.9" y="0.7" size="0.8128" layer="21" font="vector">Close for 3.3V
+Open for 5V</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -10535,9 +10535,9 @@ design rules under a new name.</description>
 <vertex x="10" y="11"/>
 <vertex x="5" y="16"/>
 </polygon>
-<via x="5" y="15" extent="1-16" drill="0.35"/>
-<via x="5" y="11" extent="1-16" drill="0.35"/>
-<via x="7" y="13" extent="1-16" drill="0.35"/>
+<via x="4" y="16" extent="1-16" drill="0.35"/>
+<via x="4" y="13" extent="1-16" drill="0.35"/>
+<via x="5" y="10" extent="1-16" drill="0.35"/>
 <via x="12" y="10" extent="1-16" drill="0.35"/>
 <via x="12" y="9" extent="1-16" drill="0.35"/>
 <via x="11" y="10" extent="1-16" drill="0.35"/>
@@ -10545,7 +10545,12 @@ design rules under a new name.</description>
 <via x="10" y="10" extent="1-16" drill="0.35"/>
 <via x="10" y="9" extent="1-16" drill="0.35"/>
 <via x="10" y="7" extent="1-16" drill="0.35"/>
-<via x="3" y="13" extent="1-16" drill="0.35"/>
+<via x="2" y="13" extent="1-16" drill="0.35"/>
+<via x="13" y="10" extent="1-16" drill="0.35"/>
+<via x="5" y="7" extent="1-16" drill="0.35"/>
+<via x="8" y="11" extent="1-16" drill="0.35"/>
+<via x="13" y="9" extent="1-16" drill="0.35"/>
+<via x="2" y="16" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="GND" airwireshidden="yes">
 <contactref element="C11" pad="2"/>
@@ -10653,7 +10658,7 @@ design rules under a new name.</description>
 <via x="23" y="9" extent="1-16" drill="0.35"/>
 <via x="31" y="9" extent="1-16" drill="0.35"/>
 <via x="11" y="12" extent="1-16" drill="0.35"/>
-<via x="20" y="8" extent="1-16" drill="0.35"/>
+<via x="20" y="9" extent="1-16" drill="0.35"/>
 <via x="16" y="12.5" extent="1-16" drill="0.35"/>
 <via x="12" y="23" extent="1-16" drill="0.35"/>
 <via x="20" y="23" extent="1-16" drill="0.35"/>
@@ -10671,6 +10676,9 @@ design rules under a new name.</description>
 <wire x1="16.5" y1="9" x2="17.4" y2="9" width="0.254" layer="1"/>
 <wire x1="16" y1="12.5" x2="16" y2="9.5" width="2.54" layer="16"/>
 <wire x1="16" y1="12.5" x2="16" y2="8" width="1.27" layer="1"/>
+<via x="19" y="6" extent="1-16" drill="0.35"/>
+<via x="25" y="4" extent="1-16" drill="0.35"/>
+<via x="29" y="5" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="VOUT" airwireshidden="yes">
 <contactref element="C34" pad="1"/>
@@ -10744,6 +10752,15 @@ design rules under a new name.</description>
 <wire x1="18.9424" y1="9.9723875" x2="18.9424" y2="7.5124125" width="0.254" layer="16"/>
 <wire x1="15.8" y1="5.2" x2="15.75" y2="5.15" width="0.254" layer="1"/>
 <wire x1="15.75" y1="5.15" x2="15" y2="5.15" width="0.254" layer="1"/>
+<via x="38" y="16" extent="1-16" drill="0.35"/>
+<via x="38" y="13" extent="1-16" drill="0.35"/>
+<via x="23" y="13" extent="1-16" drill="0.35"/>
+<via x="25" y="13" extent="1-16" drill="0.35"/>
+<via x="27" y="13" extent="1-16" drill="0.35"/>
+<via x="29" y="13" extent="1-16" drill="0.35"/>
+<via x="31" y="13" extent="1-16" drill="0.35"/>
+<via x="36" y="16" extent="1-16" drill="0.35"/>
+<via x="36" y="13" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="FB">
 <contactref element="C41" pad="2"/>
@@ -10757,14 +10774,12 @@ design rules under a new name.</description>
 <wire x1="26" y1="6.15" x2="26" y2="4.9" width="0.254" layer="1"/>
 <wire x1="26" y1="4.9" x2="26" y2="4.238" width="0.254" layer="1"/>
 <wire x1="26" y1="4.238" x2="26.238" y2="4" width="0.254" layer="1"/>
-<wire x1="17.4" y1="9.5" x2="19.8" y2="9.5" width="0.254" layer="1"/>
-<wire x1="19.8" y1="9.5" x2="20.3" y2="9" width="0.254" layer="1"/>
-<via x="20.3" y="9" extent="1-16" drill="0.35"/>
-<wire x1="24" y1="4.7" x2="22.3" y2="6.4" width="0.254" layer="16"/>
-<wire x1="20.3" y1="9" x2="22.3" y2="7" width="0.254" layer="16"/>
-<wire x1="22.3" y1="7" x2="22.3" y2="6.4" width="0.254" layer="16"/>
-<wire x1="25.8" y1="4.7" x2="26" y2="4.9" width="0.254" layer="16"/>
-<wire x1="25.8" y1="4.7" x2="24" y2="4.7" width="0.254" layer="16"/>
+<wire x1="17.4" y1="9.5" x2="18.1" y2="9.5" width="0.254" layer="1"/>
+<wire x1="18.1" y1="9.5" x2="20.6" y2="7" width="0.254" layer="1"/>
+<via x="20.6" y="7" extent="1-16" drill="0.35"/>
+<wire x1="23.8" y1="4.9" x2="21.7" y2="7" width="0.254" layer="16"/>
+<wire x1="20.6" y1="7" x2="21.7" y2="7" width="0.254" layer="16"/>
+<wire x1="26" y1="4.9" x2="23.8" y2="4.9" width="0.254" layer="16"/>
 <via x="26" y="4.9" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$1">
@@ -11172,6 +11187,30 @@ design rules under a new name.</description>
 <approved hash="5,1,bba49a18ed1c0c45"/>
 <approved hash="19,1,81860b631b2778b1"/>
 <approved hash="19,1,d0e00b416a3858ea"/>
+<approved hash="19,1,feacf8940634e88d"/>
+<approved hash="19,1,801b3266ab5ef0a2"/>
+<approved hash="19,1,e6d8fa5b05cbf04f"/>
+<approved hash="19,1,fad8e7351ee1ecbf"/>
+<approved hash="19,1,9e669ac796cb926a"/>
+<approved hash="19,1,9df69e77927b91fa"/>
+<approved hash="19,1,9b593753af39ec80"/>
+<approved hash="19,1,fa7cf9e60752ed49"/>
+<approved hash="19,1,81552c31b4abf0c8"/>
+<approved hash="19,1,9c0b2bd4b3f8eca6"/>
+<approved hash="19,1,fad8fac10425ec8f"/>
+<approved hash="19,1,9ce92d17b54dec00"/>
+<approved hash="6,1,f77dc940be6e3fb1"/>
+<approved hash="23,1,07429752ebde7bce"/>
+<approved hash="19,1,19a4a116acc5ec78"/>
+<approved hash="19,1,a1a4d916acd86c79"/>
+<approved hash="19,1,c186c9f76a2c2a49"/>
+<approved hash="19,1,d9a4d110acd9ec79"/>
+<approved hash="19,1,f9a8e11a6cd9ec7b"/>
+<approved hash="19,1,f1a2f912acd96c79"/>
+<approved hash="19,1,b18709eb6a2a2a49"/>
+<approved hash="19,1,d739b7226629ef21"/>
+<approved hash="19,1,e986e1f7ea2e2a4f"/>
+<approved hash="19,1,c986b1f6ea2a2a49"/>
 </errors>
 </board>
 </drawing>
