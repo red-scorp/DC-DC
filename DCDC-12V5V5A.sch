@@ -57415,6 +57415,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="HOLE4" library="_my_fiducia" deviceset="TOOLINGHOLE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -57689,6 +57690,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <instance part="GND1" gate="1" x="30.48" y="106.68" smashed="yes">
 <attribute name="VALUE" x="30.48" y="106.426" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="HOLE4" gate="G$1" x="134.62" y="25.4" smashed="yes"/>
 </instances>
 <busses>
 </busses>

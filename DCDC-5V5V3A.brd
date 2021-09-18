@@ -183,10 +183,10 @@
 <hole x="37" y="21" drill="3.1"/>
 <hole x="37" y="3" drill="3.1"/>
 <text x="33" y="20" size="1.6764" layer="22" font="vector" ratio="20" rot="MR0">DCDC-5V5V3A-0010</text>
-<text x="2.8" y="17.8" size="0.8128" layer="21" font="vector">+2-5V</text>
+<text x="0.8" y="17.8" size="0.8128" layer="21" font="vector">+2-5V</text>
 <text x="3" y="5.4" size="0.8128" layer="21" font="vector">GND</text>
-<text x="39.4" y="4.4" size="0.8128" layer="21" font="vector" rot="R90">GND</text>
-<text x="39.4" y="17.5" size="0.8128" layer="21" font="vector" rot="R90">+3.3/5V</text>
+<text x="37.4" y="5.6" size="0.8128" layer="21" font="vector">GND</text>
+<text x="34.5" y="17.6" size="0.8128" layer="21" font="vector">+3.3/5V</text>
 <text x="33" y="16" size="1.27" layer="22" font="vector" rot="MR0">(c) Andriy Golovnya</text>
 <text x="33" y="18" size="1.27" layer="22" font="vector" rot="MR0">2-5V/3A Buck-Boost Converter</text>
 <text x="1.6" y="16" size="0.8128" layer="22" font="vector" rot="MR270">+2-5V</text>
@@ -10457,9 +10457,9 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="31" y="19" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="VALUE" x="32.905" y="18.365" size="0.6096" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="HOLE1" library="_my_fiducia" package="TOOLING-HOLE" value="TOOLINGHOLE" x="33" y="22" smashed="yes"/>
-<element name="HOLE2" library="_my_fiducia" package="TOOLING-HOLE" value="TOOLINGHOLE" x="7" y="22" smashed="yes"/>
-<element name="HOLE3" library="_my_fiducia" package="TOOLING-HOLE" value="TOOLINGHOLE" x="21" y="2" smashed="yes"/>
+<element name="HOLE1" library="_my_fiducia" package="TOOLING-HOLE" value="TOOLINGHOLE" x="35" y="23" smashed="yes"/>
+<element name="HOLE2" library="_my_fiducia" package="TOOLING-HOLE" value="TOOLINGHOLE" x="5" y="23" smashed="yes"/>
+<element name="HOLE3" library="_my_fiducia" package="TOOLING-HOLE" value="TOOLINGHOLE" x="35" y="1" smashed="yes"/>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1nF" x="31" y="11" smashed="yes" rot="R270">
 <attribute name="NAME" x="31.65" y="11.8" size="0.6096" layer="25" font="vector" rot="R270"/>
 <attribute name="POPULARITY" value="30" x="31" y="11" size="1.27" layer="27" rot="R270" display="off"/>
@@ -10493,6 +10493,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.349" y="5.143" size="0.6096" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="27.4001" y="4" size="0.02" layer="27"/>
 </element>
+<element name="HOLE4" library="_my_fiducia" package="TOOLING-HOLE" value="TOOLINGHOLE" x="6" y="1" smashed="yes"/>
 </elements>
 <signals>
 <signal name="VIN" airwireshidden="yes">
@@ -10609,22 +10610,19 @@ design rules under a new name.</description>
 <contactref element="CN2" pad="2"/>
 <via x="33" y="9" extent="1-16" drill="0.35"/>
 <via x="33" y="7" extent="1-16" drill="0.35"/>
-<via x="5" y="23" extent="1-16" drill="0.35"/>
-<via x="35" y="23" extent="1-16" drill="0.35"/>
 <via x="39" y="19" extent="1-16" drill="0.35"/>
 <via x="39" y="5" extent="1-16" drill="0.35"/>
 <via x="3" y="7" extent="1-16" drill="0.35"/>
 <via x="5" y="5" extent="1-16" drill="0.35"/>
 <via x="1" y="5" extent="1-16" drill="0.35"/>
 <via x="1" y="19" extent="1-16" drill="0.35"/>
-<via x="35" y="1" extent="1-16" drill="0.35"/>
 <via x="38" y="11" extent="1-16" drill="0.35"/>
 <via x="36" y="11" extent="1-16" drill="0.35"/>
 <via x="38" y="8" extent="1-16" drill="0.35"/>
 <via x="36" y="8" extent="1-16" drill="0.35"/>
 <via x="4" y="8" extent="1-16" drill="0.35"/>
 <via x="2" y="11" extent="1-16" drill="0.35"/>
-<via x="5" y="1" extent="1-16" drill="0.35"/>
+<via x="3" y="1" extent="1-16" drill="0.35"/>
 <via x="12" y="5" extent="1-16" drill="0.35"/>
 <via x="25" y="1" extent="1-16" drill="0.35"/>
 <via x="16" y="1" extent="1-16" drill="0.35"/>

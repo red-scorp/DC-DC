@@ -57512,6 +57512,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1M"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VOUT" device=""/>
 <part name="SJ1" library="_my_jumpers" deviceset="SJ" device=""/>
+<part name="HOLE4" library="_my_fiducia" deviceset="TOOLINGHOLE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -57765,6 +57766,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <attribute name="NAME" x="177.8" y="99.06" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="184.15" y="99.06" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="HOLE4" gate="G$1" x="134.62" y="25.4" smashed="yes"/>
 </instances>
 <busses>
 </busses>
