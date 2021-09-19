@@ -1,6 +1,6 @@
 # DC-DC project
 
-This project is intended to implement some simple flexible DC-DC buck and book-boost converters from basic components.
+This project is intended to implement some simple flexible DC-DC buck and buck-boost converters from basic components.
 This project features Excel based component's values calculator.
 
 ## DCDC-12V5V5A
