@@ -97,7 +97,7 @@ BoM and PnP files for JLCPCB are available.
 
 ## Link
 
-- Some theory on buck-boost [Under the hood of a noninverting buck-boost converter](https://www.ti.com/seclit/ml/slup346/slup346.pdf)
+- Interesting paper [Under the hood of a noninverting buck-boost converter](https://www.ti.com/seclit/ml/slup346/slup346.pdf)
 - Product page [Ti LM3150](https://www.ti.com/product/LM3150)
 - Product page [Ti TPS63020](https://www.ti.com/product/TPS63020)
 
