@@ -95,6 +95,12 @@ Features:
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
 
+## Link
+
+- Some theory on buck-boost [Under the hood of a noninverting buck-boost converter](https://www.ti.com/seclit/ml/slup346/slup346.pdf)
+- Product page [Ti LM3150](https://www.ti.com/product/LM3150)
+- Product page [Ti TPS63020](https://www.ti.com/product/TPS63020)
+
 ## How to help
 
 Your contributions as code, resources or finances are welcome!
