@@ -21,6 +21,7 @@ Features:
 - Switching: **500kHz**
 - Efficiency: **up to 90%**
 - Board size: **40x24mm**
+- Based on: **Ti LM3150**
 
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
@@ -43,6 +44,7 @@ Features:
 - Switching: **600kHz**
 - Efficiency: **up to 90%**
 - Board size: **40x24mm**
+- Based on: **Ti LM3150**
 
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
@@ -65,6 +67,7 @@ Features:
 - Switching: **500kHz**
 - Efficiency: **up to 90%**
 - Board size: **40x24mm**
+- Based on: **Ti LM3150**
 
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
@@ -87,6 +90,7 @@ Features:
 - Switching: **2.4MHz**
 - Efficiency: **up to 90%**
 - Board size: **40x24mm**
+- Based on: **Ti TPS63020**
 
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
