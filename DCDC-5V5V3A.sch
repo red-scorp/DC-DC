@@ -57513,13 +57513,14 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VOUT" device=""/>
 <part name="SJ1" library="_my_jumpers" deviceset="SJ" device=""/>
 <part name="HOLE4" library="_my_fiducia" deviceset="TOOLINGHOLE" device=""/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="256.54" y="7.62" size="2.54" layer="94">1.0</text>
-<text x="195.58" y="7.62" size="2.54" layer="94">DCDC-5V5V3A-0010</text>
-<text x="165.1" y="25.4" size="2.54" layer="94">DC-DC Buck-Boost Converter with selectable output 2V-5V
+<text x="256.54" y="7.62" size="2.54" layer="94">1.1</text>
+<text x="195.58" y="7.62" size="2.54" layer="94">DCDC-5V5V3A-0011</text>
+<text x="165.1" y="25.4" size="2.54" layer="94">DC/DC Buck-Boost Converter with selectable output 2V-5V
 (c) Andriy Golovnya</text>
 <text x="99.06" y="137.16" size="2.54" layer="94">Vin to Vout Conversion</text>
 </plain>
@@ -57600,8 +57601,8 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <attribute name="NAME" x="144.78" y="104.14" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="140.208" y="99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY45" gate="G$1" x="172.72" y="119.38" smashed="yes">
-<attribute name="VALUE" x="172.72" y="122.174" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY45" gate="G$1" x="172.72" y="129.54" smashed="yes">
+<attribute name="VALUE" x="172.72" y="132.334" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="GND52" gate="1" x="137.16" y="83.82" smashed="yes">
 <attribute name="VALUE" x="137.16" y="83.566" size="1.778" layer="96" align="top-center"/>
@@ -57609,9 +57610,9 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <instance part="SUPPLY46" gate="G$1" x="96.52" y="124.46" smashed="yes">
 <attribute name="VALUE" x="96.52" y="127.254" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R17" gate="G$1" x="172.72" y="111.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="171.2214" y="107.95" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="176.022" y="107.95" size="1.778" layer="96" rot="R90"/>
+<instance part="R17" gate="G$1" x="172.72" y="121.92" smashed="yes" rot="R90">
+<attribute name="NAME" x="171.2214" y="118.11" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="176.022" y="118.11" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R19" gate="G$1" x="172.72" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="171.2214" y="87.63" size="1.778" layer="95" rot="R90"/>
@@ -57624,9 +57625,9 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <instance part="GND53" gate="1" x="172.72" y="83.82" smashed="yes">
 <attribute name="VALUE" x="172.72" y="83.566" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C41" gate="G$1" x="165.1" y="104.14" smashed="yes">
-<attribute name="NAME" x="166.624" y="104.521" size="1.778" layer="95"/>
-<attribute name="VALUE" x="166.624" y="99.441" size="1.778" layer="96"/>
+<instance part="C41" gate="G$1" x="165.1" y="106.68" smashed="yes">
+<attribute name="NAME" x="166.624" y="107.061" size="1.778" layer="95"/>
+<attribute name="VALUE" x="166.624" y="101.981" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="68.58" y="114.3" smashed="yes">
 <attribute name="VALUE" x="68.58" y="117.094" size="1.778" layer="96" align="bottom-center"/>
@@ -57767,6 +57768,10 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <attribute name="VALUE" x="184.15" y="99.06" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="HOLE4" gate="G$1" x="134.62" y="25.4" smashed="yes"/>
+<instance part="R3" gate="G$1" x="172.72" y="111.76" smashed="yes" rot="R90">
+<attribute name="NAME" x="171.2214" y="107.95" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="176.022" y="107.95" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -57936,11 +57941,11 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <segment>
 <pinref part="SUPPLY45" gate="G$1" pin="VOUT"/>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="116.84" x2="172.72" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="127" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="C41" gate="G$1" pin="1"/>
-<wire x1="165.1" y1="106.68" x2="165.1" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="116.84" x2="172.72" y2="116.84" width="0.1524" layer="91"/>
-<junction x="172.72" y="116.84"/>
+<wire x1="165.1" y1="109.22" x2="165.1" y2="127" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="127" x2="172.72" y2="127" width="0.1524" layer="91"/>
+<junction x="172.72" y="127"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="1"/>
@@ -58011,7 +58016,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <segment>
 <label x="157.48" y="96.52" size="1.778" layer="95"/>
 <pinref part="C41" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="99.06" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="101.6" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="96.52" x2="157.48" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="96.52" x2="172.72" y2="96.52" width="0.1524" layer="91"/>
@@ -58082,10 +58087,16 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <net name="N$2" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
 <pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="106.68" x2="180.34" y2="106.68" width="0.1524" layer="91"/>
-<junction x="172.72" y="106.68"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="SJ1" gate="1" pin="2"/>
+<wire x1="180.34" y1="106.68" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
+<junction x="172.72" y="106.68"/>
 </segment>
 </net>
 </nets>
