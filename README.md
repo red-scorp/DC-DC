@@ -1,7 +1,12 @@
 # DC/DC project
 
 This project is intended to implement some simple flexible DC/DC buck and buck-boost converters from basic components.
-This project features Excel based component's values calculator.
+This project features Excel based component values calculator.
+
+I've stared this project to create stable and high qualitative DC/DC module for my private projects, covering most common usecases:
+
+- Step-down to most common fixed voltages 3.3V, 5V and 12V
+- Step-up/down from 1.8V-5.5V to 3.3V and 5V
 
 ## DCDC-12V5V5A
 
