@@ -1,6 +1,6 @@
 <b>DC-DC Converter</b><br/><br/>
 
-<b>DCDC-12V5V5A</b> - DC-DC Buck Converter<br/>
+<b>DCDC-12V5V5A</b> - DC/DC Buck Converter<br/>
 Features:
 <ul>
 <li>Input: <b>12V (6V-24V)</b></li>
@@ -11,7 +11,7 @@ Features:
 <li>Board size: <b>40x24mm</b></li>
 </ul><br/>
 
-<b>DCDC-12V3V5A</b> - DC-DC Buck Converter<br/>
+<b>DCDC-12V3V5A</b> - DC/DC Buck Converter<br/>
 Features:
 <ul>
 <li>Input: <b>12V (5V-24V)</b></li>
@@ -22,7 +22,7 @@ Features:
 <li>Board size: <b>40x24mm</b></li>
 </ul><br/>
 
-<b>DCDC-17V12V5A</b> - DC-DC Buck Converter<br/>
+<b>DCDC-17V12V5A</b> - DC/DC Buck Converter<br/>
 Features:
 <ul>
 <li>Input: <b>17V (14V-24V)</b></li>
@@ -33,7 +33,7 @@ Features:
 <li>Board size: <b>40x24mm</b></li>
 </ul><br/>
 
-<b>DCDC-5V5V3A</b> - DC-DC Buck-Boost Converter<br/>
+<b>DCDC-5V5V3A</b> - DC/DC Buck-Boost Converter<br/>
 Features:
 <ul>
 <li>Input: <b>1.8-5.5V</b></li>
