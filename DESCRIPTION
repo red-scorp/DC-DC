@@ -9,6 +9,7 @@ Features:
 <li>Switching: <b>500kHz</b></li>
 <li>Efficiency: <b>up to 90%</b></li>
 <li>Board size: <b>40x24mm</b></li>
+<li>Based on: <b>Ti LM3150</b></li>
 </ul><br/>
 
 <b>DCDC-12V3V5A</b> - DC/DC Buck Converter<br/>
@@ -20,6 +21,7 @@ Features:
 <li>Switching: <b>600kHz</b></li>
 <li>Efficiency: <b>up to 90%</b></li>
 <li>Board size: <b>40x24mm</b></li>
+<li>Based on: <b>Ti LM3150</b></li>
 </ul><br/>
 
 <b>DCDC-17V12V5A</b> - DC/DC Buck Converter<br/>
@@ -31,6 +33,7 @@ Features:
 <li>Switching: <b>500kHz</b></li>
 <li>Efficiency: <b>up to 90%</b></li>
 <li>Board size: <b>40x24mm</b></li>
+<li>Based on: <b>Ti LM3150</b></li>
 </ul><br/>
 
 <b>DCDC-5V5V3A</b> - DC/DC Buck-Boost Converter<br/>
@@ -42,4 +45,5 @@ Features:
 <li>Switching: <b>2.4MHz</b></li>
 <li>Efficiency: <b>up to 90%</b></li>
 <li>Board size: <b>40x24mm</b></li>
+<li>Based on: <b>Ti TPS63020</b></li>
 </ul><br/>
