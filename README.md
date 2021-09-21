@@ -1,11 +1,11 @@
-# DC-DC project
+# DC/DC project
 
-This project is intended to implement some simple flexible DC-DC buck and buck-boost converters from basic components.
+This project is intended to implement some simple flexible DC/DC buck and buck-boost converters from basic components.
 This project features Excel based component's values calculator.
 
 ## DCDC-12V5V5A
 
-**DCDC-12V5V5A** is simple DC-DC step-down converter with fixed output 5V.
+**DCDC-12V5V5A** is simple DC/DC step-down converter with fixed output 5V.
 
 Preview:
 
@@ -28,7 +28,7 @@ BoM and PnP files for JLCPCB are available.
 
 ## DCDC-12V3V5A
 
-**DCDC-12V3V5A** is simple DC-DC step-down converter with fixed output 3.3V.
+**DCDC-12V3V5A** is simple DC/DC step-down converter with fixed output 3.3V.
 
 Preview:
 
@@ -51,7 +51,7 @@ BoM and PnP files for JLCPCB are available.
 
 ## DCDC-17V12V5A
 
-**DCDC-17V12V5A** is simple DC-DC step-down converter with fixed output 12V.
+**DCDC-17V12V5A** is simple DC/DC step-down converter with fixed output 12V.
 
 Preview:
 
@@ -74,7 +74,7 @@ BoM and PnP files for JLCPCB are available.
 
 ## DCDC-5V5V3A
 
-**DCDC-5V5V3A** is simple DC-DC step-up/down converter with selectable fixed output 3.3/5V.
+**DCDC-5V5V3A** is simple DC/DC step-up/down converter with selectable fixed output 3.3/5V.
 
 Preview:
 
