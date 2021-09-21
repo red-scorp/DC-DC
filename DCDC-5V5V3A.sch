@@ -57520,7 +57520,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <plain>
 <text x="256.54" y="7.62" size="2.54" layer="94">1.1</text>
 <text x="195.58" y="7.62" size="2.54" layer="94">DCDC-5V5V3A-0011</text>
-<text x="165.1" y="25.4" size="2.54" layer="94">DC/DC Buck-Boost Converter with selectable output 2V-5V
+<text x="165.1" y="25.4" size="2.54" layer="94">DC/DC Buck-Boost Converter with selectable output 3.3V/5V
 (c) Andriy Golovnya</text>
 <text x="99.06" y="137.16" size="2.54" layer="94">Vin to Vout Conversion</text>
 </plain>
