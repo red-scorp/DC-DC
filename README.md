@@ -1,6 +1,6 @@
 # DC/DC project
 
-This project is intended to implement some simple flexible DC/DC buck and buck-boost converters from basic components.
+This project is intended to implement some simple multipurpose DC/DC buck and buck-boost converters from basic components.
 This project features Excel based component values calculator.
 
 I've stared this project to create stable and high qualitative DC/DC module for my private projects, covering most common usecases:
