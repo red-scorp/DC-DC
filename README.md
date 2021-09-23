@@ -125,6 +125,12 @@ Features:
 
 CAM files are available.
 
+## DCDC-BOX
+
+**DCDC-BOX** is a enclosure for a single DCDC module suitable for FDM 3D printing.
+
+![DCDC-BOX preview](3d/DCDC-BOX.stl)
+
 ## Link
 
 - Interesting paper [Under the hood of a noninverting buck-boost converter](https://www.ti.com/seclit/ml/slup346/slup346.pdf)
