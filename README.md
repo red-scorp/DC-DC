@@ -115,7 +115,7 @@ Features:
 - Fits two DCDC-Modules
 - Common input
 - Two separate outputs
-- Compatible with heat sinks up to 24x24.
+- Compatible with heat sinks up to 24x24
 
 CAM files are available.
 
