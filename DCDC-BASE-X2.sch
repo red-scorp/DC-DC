@@ -47009,7 +47009,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="LOGO2" library="_my_logos" deviceset="MFDECLOGO" device="_L_20MM" value="MFDECLOGO_L_20MM"/>
+<part name="LOGO2" library="_my_logos" deviceset="MFDECLOGO" device="_L_10MM" value="MFDECLOGO_L_10MM"/>
 </parts>
 <sheets>
 <sheet>
