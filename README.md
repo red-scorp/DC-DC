@@ -100,6 +100,25 @@ Features:
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
 
+## DCDC-BASE-X2
+
+**DCDC-BASE-X2** is base board for 2 DC/DC modules with common input and two separate outputs.
+
+Preview:
+
+![DCDC-BASE-X2 preview](DCDC-BASE-X2.png)
+
+[Schematics in PDF format](DCDC-BASE-X2.pdf)
+
+Features:
+
+- Fits two DCDC-Modules
+- Common input
+- Two separate outputs
+- Compatible with heat sinks up to 24x24.
+
+CAM files are available.
+
 ## Link
 
 - Interesting paper [Under the hood of a noninverting buck-boost converter](https://www.ti.com/seclit/ml/slup346/slup346.pdf)
