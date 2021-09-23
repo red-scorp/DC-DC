@@ -1,16 +1,17 @@
 # DC/DC project
 
-This project is intended to implement some simple flexible DC/DC buck and buck-boost converters from basic components.
-This project features Excel based component values calculator.
+This project is intended to implement some simple multipurpose DC/DC buck and buck-boost converters from easy available components.
+This project also features Excel based component values calculator.
 
-I've stared this project to create stable and high qualitative DC/DC module for my private projects, covering most common usecases:
+I've stared this project to create stable and high qualitaty DC/DC module for my private projects, covering most common usecases:
 
-- Step-down to most common fixed voltages 3.3V, 5V and 12V
-- Step-up/down from 1.8V-5.5V to 3.3V and 5V
+- Step-down to most common fixed voltages 3.3V, 5V and 12V up to 5A
+- Step-up/down from 1.8V-5.5V to 3.3V and 5V up to 3A
 
 ## DCDC-12V5V5A
 
 **DCDC-12V5V5A** is simple DC/DC step-down converter with fixed output 5V.
+When used for more than 1A current it's recommended to glue a heat sink about 20x20mm in a middle of the bottom side of the board.
 
 Preview:
 
@@ -20,7 +21,7 @@ Preview:
 
 Features:
 
-- Input: **12V (6V-24V)**
+- Input: **12V (7V-24V)**
 - Output: **5V**
 - Current: **5A (peak 10A)**
 - Switching: **500kHz**
@@ -34,6 +35,7 @@ BoM and PnP files for JLCPCB are available.
 ## DCDC-12V3V5A
 
 **DCDC-12V3V5A** is simple DC/DC step-down converter with fixed output 3.3V.
+When used for more than 1A current it's recommended to glue a heat sink about 20x20mm in a middle of the bottom side of the board.
 
 Preview:
 
@@ -57,6 +59,7 @@ BoM and PnP files for JLCPCB are available.
 ## DCDC-17V12V5A
 
 **DCDC-17V12V5A** is simple DC/DC step-down converter with fixed output 12V.
+When used for more than 1A current it's recommended to glue a heat sink about 20x20mm in a middle of the bottom side of the board.
 
 Preview:
 
@@ -80,6 +83,7 @@ BoM and PnP files for JLCPCB are available.
 ## DCDC-5V5V3A
 
 **DCDC-5V5V3A** is simple DC/DC step-up/down converter with selectable fixed output 3.3/5V.
+When used for more than 1A current it's recommended to glue a heat sink about 20x20mm in a middle of the bottom side of the board.
 
 Preview:
 
@@ -99,6 +103,27 @@ Features:
 
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
+
+## DCDC-BASE-X2
+
+**DCDC-BASE-X2** is base board for 2 DC/DC modules with common input and two separate outputs.
+When used for more than 1A current it's recommended to glue a heat sinks about 20x20mm in a middle of the bottom side of DCDC boards before soldering them to the base board.
+
+Preview:
+
+![DCDC-BASE-X2 preview](DCDC-BASE-X2.png)
+
+[Schematics in PDF format](DCDC-BASE-X2.pdf)
+
+Features:
+
+- Fits two compatible DCDC modules
+- Common/single input
+- Two separate outputs
+- Compatible with heat sinks up to 24x24mm
+- Supports direct and/or hole through soldering of DCDC modules
+
+CAM files are available.
 
 ## Link
 

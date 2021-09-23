@@ -3,7 +3,7 @@
 <b>DCDC-12V5V5A</b> - DC/DC Buck Converter<br/>
 Features:
 <ul>
-<li>Input: <b>12V (6V-24V)</b></li>
+<li>Input: <b>12V (7V-24V)</b></li>
 <li>Output: <b>5V</b></li>
 <li>Current: <b>5A (peak 10A)</b></li>
 <li>Switching: <b>500kHz</b></li>
@@ -47,3 +47,14 @@ Features:
 <li>Board size: <b>40x24mm</b></li>
 <li>Based on: <b>Ti TPS63020</b></li>
 </ul><br/>
+
+<b>DCDC-BASE-X2</b> - base board for 2 DC/DC modules<br/>
+Features:
+<ul>
+<li>Fits two compatible DCDC modules</li>
+<li>Common/single input</li>
+<li>Two separate outputs</li>
+<li>Compatible with heat sinks up to 24x24mm</li>
+<li>Supports direct and/or hole through soldering of DCDC modules</li>
+</ul><br/>
+
