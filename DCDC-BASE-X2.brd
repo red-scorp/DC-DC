@@ -204,6 +204,10 @@
 <text x="45.8" y="43.4" size="0.8128" layer="21" font="vector">VOUT1</text>
 <text x="45.9" y="25.8" size="0.8128" layer="21" font="vector">VOUT2</text>
 <hole x="3" y="3" drill="3.1"/>
+<text x="11" y="32" size="1.778" layer="21" font="vector" rot="R90">INPUT</text>
+<text x="41" y="31" size="1.778" layer="21" font="vector" rot="R90">OUTPUT</text>
+<text x="48" y="50" size="1.778" layer="21" font="vector" rot="R90">Module 1</text>
+<text x="48" y="10" size="1.778" layer="21" font="vector" rot="R90">Module 2</text>
 </plain>
 <libraries>
 <library name="con-jack" urn="urn:adsk.eagle:library:154">
