@@ -127,7 +127,7 @@ CAM files are available.
 
 ## DCDC-BOX
 
-**DCDC-BOX** is a enclosure for a single DCDC module suitable for FDM 3D printing.
+**DCDC-BOX** is a enclosure for a single DCDC module suitable for FDM and SLA 3D printing.
 
 ![DCDC-BOX preview](3d/DCDC-BOX.png)
 
