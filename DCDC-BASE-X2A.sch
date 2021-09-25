@@ -47015,7 +47015,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <sheet>
 <plain>
 <text x="256.54" y="7.62" size="2.54" layer="94">1.0</text>
-<text x="195.58" y="7.62" size="2.54" layer="94">DCDC-BASE-X2-0010</text>
+<text x="195.58" y="7.62" size="2.54" layer="94">DCDC-BASE-X2A-0010</text>
 <text x="165.1" y="25.4" size="2.54" layer="94">DC/DC Base Board for 2 Buck or Buck-Boost Converters
 (c) Andriy Golovnya</text>
 </plain>

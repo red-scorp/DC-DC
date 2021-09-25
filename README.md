@@ -104,16 +104,16 @@ Features:
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
 
-## DCDC-BASE-X2
+## DCDC-BASE-X2A
 
-**DCDC-BASE-X2** is base board for 2 DC/DC modules with common input and two separate outputs.
+**DCDC-BASE-X2A** is base board for 2 DC/DC modules with common input and two separate outputs.
 When used for more than 1A current it's recommended to glue a heat sinks about 20x20mm in a middle of the bottom side of DCDC boards before soldering them to the base board.
 
 Preview:
 
-![DCDC-BASE-X2 preview](DCDC-BASE-X2.png)
+![DCDC-BASE-X2A preview](DCDC-BASE-X2A.png)
 
-[Schematics in PDF format](DCDC-BASE-X2.pdf)
+[Schematics in PDF format](DCDC-BASE-X2A.pdf)
 
 Features:
 
