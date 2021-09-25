@@ -125,6 +125,27 @@ Features:
 
 CAM files are available.
 
+## DCDC-BASE-X2B
+
+**DCDC-BASE-X2B** is base board for 2 DC/DC modules with common input and two separate outputs.
+When used for more than 1A current it's recommended to glue a heat sinks about 20x20mm in a middle of the bottom side of DCDC boards before soldering them to the base board.
+
+Preview:
+
+![DCDC-BASE-X2B preview](DCDC-BASE-X2B.png)
+
+[Schematics in PDF format](DCDC-BASE-X2B.pdf)
+
+Features:
+
+- Fits two compatible DCDC modules
+- Common/single input
+- Two separate outputs
+- Compatible with heat sinks up to 24x24mm
+- Supports direct and/or hole through soldering of DCDC modules
+
+CAM files are available.
+
 ## DCDC-BOX
 
 **DCDC-BOX** is a enclosure for a single DCDC module suitable for FDM and SLA 3D printing.
