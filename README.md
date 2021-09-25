@@ -154,6 +154,14 @@ CAM files are available.
 
 STL file is available.
 
+## DCDC-BOX-X2
+
+**DCDC-BOX-X2** is a enclosure for a x2 base board suitable for FDM and SLA 3D printing.
+
+![DCDC-BOX-X2 preview](3d/DCDC-BOX-X2.png)
+
+STL file is available.
+
 ## Link
 
 - Interesting paper [Under the hood of a noninverting buck-boost converter](https://www.ti.com/seclit/ml/slup346/slup346.pdf)
