@@ -80,6 +80,27 @@ Features:
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
 
+## DCDC-17VXV5A
+
+**DCDC-17VXV5A** is simple DC/DC step-down converter with selectable output 2-12V.
+When used for more than 1A current it's recommended to glue a heat sink about 20x20mm in a middle of the bottom side of the board.
+
+Preview:
+
+![DCDC-17VXV5A preview](DCDC-17VXV5A.png)
+
+[Schematics in PDF format](DCDC-17VXV5A.pdf)
+
+Features:
+
+- Input: **17V (5V-24V)**
+- Output: **2-12V**
+- Current: **5A (peak 10A)**
+- Switching: **500kHz**
+- Efficiency: **up to 90%**
+- Board size: **40x24mm**
+- Based on: **Ti LM3150**
+
 ## DCDC-5V5V3A
 
 **DCDC-5V5V3A** is simple DC/DC step-up/down converter with selectable fixed output 3.3/5V.

@@ -36,6 +36,18 @@ Features:
 <li>Based on: <b>Ti LM3150</b></li>
 </ul><br/>
 
+<b>DCDC-17VXV5A</b> - DC/DC Buck Converter<br/>
+Features:
+<ul>
+<li>Input: <b>17V (5V-24V)</b></li>
+<li>Output: <b>2-12V</b></li>
+<li>Current: <b>5A (peak 10A)</b></li>
+<li>Switching: <b>500kHz</b></li>
+<li>Efficiency: <b>up to 90%</b></li>
+<li>Board size: <b>40x24mm</b></li>
+<li>Based on: <b>Ti LM3150</b></li>
+</ul><br/>
+
 <b>DCDC-5V5V3A</b> - DC/DC Buck-Boost Converter<br/>
 Features:
 <ul>
