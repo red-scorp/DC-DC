@@ -101,6 +101,8 @@ Features:
 - Board size: **40x24mm**
 - Based on: **Ti LM3150**
 
+CAM files are available.
+
 ## DCDC-5V5V3A
 
 **DCDC-5V5V3A** is simple DC/DC step-up/down converter with selectable fixed output 3.3/5V.
