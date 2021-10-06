@@ -206,6 +206,7 @@
 Andriy Golovnya</text>
 <text x="23" y="17" size="0.8128" layer="21" font="vector" ratio="20">(c) 2021
 Andriy Golovnya</text>
+<text x="8" y="1" size="1.016" layer="21" font="vector">DCDC-12V5V5A-0011</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
