@@ -56,20 +56,20 @@ Features:
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
 
-## DCDC-17V12V5A
+## DCDC-18V12V5A
 
-**DCDC-17V12V5A** is simple DC/DC step-down converter with fixed output 12V.
+**DCDC-18V12V5A** is simple DC/DC step-down converter with fixed output 12V.
 When used for more than 1A current it's recommended to glue a heat sink about 20x20mm in a middle of the bottom side of the board.
 
 Preview:
 
-![DCDC-17V12V5A preview](DCDC-17V12V5A.png)
+![DCDC-18V12V5A preview](DCDC-18V12V5A.png)
 
-[Schematics in PDF format](DCDC-17V12V5A.pdf)
+[Schematics in PDF format](DCDC-18V12V5A.pdf)
 
 Features:
 
-- Input: **17V (14V-24V)**
+- Input: **18V (14V-24V)**
 - Output: **12V**
 - Current: **5A (peak 10A)**
 - Switching: **500kHz**
@@ -80,20 +80,20 @@ Features:
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
 
-## DCDC-17VXV5A
+## DCDC-18VXV5A
 
-**DCDC-17VXV5A** is simple DC/DC step-down converter with selectable output 2-12V.
+**DCDC-18VXV5A** is simple DC/DC step-down converter with selectable output 2-12V.
 When used for more than 1A current it's recommended to glue a heat sink about 20x20mm in a middle of the bottom side of the board.
 
 Preview:
 
-![DCDC-17VXV5A preview](DCDC-17VXV5A.png)
+![DCDC-18VXV5A preview](DCDC-18VXV5A.png)
 
-[Schematics in PDF format](DCDC-17VXV5A.pdf)
+[Schematics in PDF format](DCDC-18VXV5A.pdf)
 
 Features:
 
-- Input: **17V (5V-24V)**
+- Input: **18V (5V-24V)**
 - Output: **2-12V**
 - Current: **5A (peak 10A)**
 - Switching: **500kHz**

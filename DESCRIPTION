@@ -24,10 +24,10 @@ Features:
 <li>Based on: <b>Ti LM3150</b></li>
 </ul><br/>
 
-<b>DCDC-17V12V5A</b> - DC/DC Buck Converter<br/>
+<b>DCDC-18V12V5A</b> - DC/DC Buck Converter<br/>
 Features:
 <ul>
-<li>Input: <b>17V (14V-24V)</b></li>
+<li>Input: <b>18V (14V-24V)</b></li>
 <li>Output: <b>12V</b></li>
 <li>Current: <b>5A (peak 10A)</b></li>
 <li>Switching: <b>500kHz</b></li>
@@ -36,10 +36,10 @@ Features:
 <li>Based on: <b>Ti LM3150</b></li>
 </ul><br/>
 
-<b>DCDC-17VXV5A</b> - DC/DC Buck Converter<br/>
+<b>DCDC-18VXV5A</b> - DC/DC Buck Converter<br/>
 Features:
 <ul>
-<li>Input: <b>17V (5V-24V)</b></li>
+<li>Input: <b>18V (5V-24V)</b></li>
 <li>Output: <b>2-12V</b></li>
 <li>Current: <b>5A (peak 10A)</b></li>
 <li>Switching: <b>500kHz</b></li>
