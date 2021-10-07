@@ -182,14 +182,14 @@
 <hole x="3" y="21" drill="3.1"/>
 <hole x="37" y="21" drill="3.1"/>
 <hole x="37" y="3" drill="3.1"/>
-<text x="33" y="20" size="1.6764" layer="22" font="vector" ratio="20" rot="MR0">DCDC-17V12V5A-0011</text>
-<text x="0.8" y="17.8" size="0.8128" layer="21" font="vector">+17V</text>
+<text x="33" y="20" size="1.6764" layer="22" font="vector" ratio="20" rot="MR0">DCDC-18V12V5A-0011</text>
+<text x="0.8" y="17.8" size="0.8128" layer="21" font="vector">+18V</text>
 <text x="3" y="5.4" size="0.8128" layer="21" font="vector">GND</text>
 <text x="37.4" y="5.6" size="0.8128" layer="21" font="vector">GND</text>
 <text x="36.5" y="17.6" size="0.8128" layer="21" font="vector">+12V</text>
 <text x="33" y="16" size="1.27" layer="22" font="vector" rot="MR0">(c) Andriy Golovnya</text>
 <text x="33" y="18" size="1.27" layer="22" font="vector" rot="MR0">12V/5A DC-DC Buck Converter</text>
-<text x="1.6" y="15.8" size="0.8128" layer="22" font="vector" rot="MR270">+17V</text>
+<text x="1.6" y="15.8" size="0.8128" layer="22" font="vector" rot="MR270">+18V</text>
 <text x="3.4" y="8.2" size="0.8128" layer="22" font="vector" rot="MR270">GND</text>
 <text x="39.3" y="15.8" size="0.8128" layer="22" font="vector" rot="MR270">+12V</text>
 <text x="39.3" y="10.5" size="0.8128" layer="22" font="vector" rot="MR270">GND</text>
@@ -206,7 +206,7 @@
 Andriy Golovnya</text>
 <text x="23" y="17" size="0.8128" layer="21" font="vector" ratio="20">(c) 2021
 Andriy Golovnya</text>
-<text x="8" y="1" size="1.016" layer="21" font="vector">DCDC-17V12V5A-0011</text>
+<text x="8" y="1" size="1.016" layer="21" font="vector">DCDC-18V12V5A-0011</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

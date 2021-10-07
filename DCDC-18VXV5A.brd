@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -182,7 +182,7 @@
 <hole x="3" y="21" drill="3.1"/>
 <hole x="37" y="21" drill="3.1"/>
 <hole x="37" y="3" drill="3.1"/>
-<text x="33" y="20" size="1.6764" layer="22" font="vector" ratio="20" rot="MR0">DCDC-17VXV5A-0010</text>
+<text x="33" y="20" size="1.6764" layer="22" font="vector" ratio="20" rot="MR0">DCDC-18VXV5A-0010</text>
 <text x="0.8" y="17.8" size="0.8128" layer="21" font="vector">VIN</text>
 <text x="3" y="5.4" size="0.8128" layer="21" font="vector">GND</text>
 <text x="37.4" y="5.6" size="0.8128" layer="21" font="vector">GND</text>
@@ -206,7 +206,7 @@
 Andriy Golovnya</text>
 <text x="23" y="17" size="0.8128" layer="21" font="vector" ratio="20">(c) 2021
 Andriy Golovnya</text>
-<text x="8" y="1" size="1.016" layer="21" font="vector">DCDC-17VXV5A-0010</text>
+<text x="8" y="1" size="1.016" layer="21" font="vector">DCDC-18VXV5A-0010</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

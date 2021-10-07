@@ -57421,10 +57421,10 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <sheet>
 <plain>
 <text x="256.54" y="7.62" size="2.54" layer="94">1.1</text>
-<text x="195.58" y="7.62" size="2.54" layer="94">DCDC-17V12V5A-0011</text>
+<text x="195.58" y="7.62" size="2.54" layer="94">DCDC-18V12V5A-0011</text>
 <text x="165.1" y="25.4" size="2.54" layer="94">DC/DC Buck Converter with fixed output 12V
 (c) Andriy Golovnya</text>
-<text x="106.68" y="137.16" size="2.54" layer="94">17V to 12V Conversion</text>
+<text x="106.68" y="137.16" size="2.54" layer="94">18V to 12V Conversion</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
