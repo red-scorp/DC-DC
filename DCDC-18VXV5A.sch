@@ -262,12 +262,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="0" y="-0.254" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
 </symbol>
-<symbol name="5V" urn="urn:adsk.eagle:symbol:39412/1" library_version="1">
-<description>&lt;h3&gt;5V Voltage Supply&lt;/h3&gt;</description>
+<symbol name="VOUT" urn="urn:adsk.eagle:symbol:39432/1" library_version="1">
+<description>&lt;h3&gt;Vout Voltage Supply&lt;/h3&gt;</description>
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="VOUT" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -299,11 +299,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="5V" urn="urn:adsk.eagle:component:39433/1" prefix="SUPPLY" library_version="1">
-<description>&lt;h3&gt;5V Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Power supply symbol for a specifically-stated 5V source.&lt;/p&gt;</description>
+<deviceset name="VOUT" urn="urn:adsk.eagle:component:39455/1" prefix="SUPPLY" library_version="1">
+<description>&lt;h3&gt;VOUT Voltage Output&lt;/h3&gt;
+&lt;p&gt;Output voltage &lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="5V" x="0" y="0"/>
+<gate name="G$1" symbol="VOUT" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -57452,15 +57452,15 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <part name="C36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="22uF"/>
 <part name="C37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="22uF"/>
 <part name="C38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="22uF"/>
-<part name="SUPPLY41" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY42" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY41" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VOUT" device=""/>
+<part name="SUPPLY42" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VOUT" device=""/>
 <part name="U1" library="LM3150MHX_NOPB" deviceset="LM3150MHX/NOPB" device=""/>
 <part name="Q9" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" deviceset="MOSFET-NCHANNEL" device="FDD8780" package3d_urn="urn:adsk.eagle:package:5829549/1" value="NMOSFET"/>
 <part name="Q10" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" deviceset="MOSFET-NCHANNEL" device="FDD8780" package3d_urn="urn:adsk.eagle:package:5829549/1" value="NMOSFET"/>
 <part name="SUPPLY44" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
 <part name="GND51" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="L1" library="Wurth_Automotive_WE-CHSA" library_urn="urn:adsk.eagle:library:14076700" deviceset="WE-CHSA_1011" device="" package3d_urn="urn:adsk.eagle:package:13154812/4" technology="_7843330330" value="3.3uH"/>
-<part name="SUPPLY45" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY45" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VOUT" device=""/>
 <part name="GND52" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY46" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="24k"/>
@@ -57477,11 +57477,11 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
-<part name="SUPPLY47" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY48" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY49" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY50" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY51" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY47" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VOUT" device=""/>
+<part name="SUPPLY48" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VOUT" device=""/>
+<part name="SUPPLY49" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VOUT" device=""/>
+<part name="SUPPLY50" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VOUT" device=""/>
+<part name="SUPPLY51" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VOUT" device=""/>
 <part name="GND58" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND59" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND60" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -57495,18 +57495,18 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <part name="GND2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VOUT" device=""/>
 <part name="LOGO1" library="_my_logos" deviceset="RSNURL" device="_QR_8MM" value="RSNURL_QR_8MM"/>
 <part name="LOGO2" library="_my_logos" deviceset="MFDECLOGO" device="_L_10MM" value="MFDECLOGO_L_10MM"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="GREEN"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VOUT" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="HOLE1" library="_my_fiducia" deviceset="TOOLINGHOLE" device=""/>
 <part name="HOLE2" library="_my_fiducia" deviceset="TOOLINGHOLE" device=""/>
 <part name="HOLE3" library="_my_fiducia" deviceset="TOOLINGHOLE" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1nF"/>
-<part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VOUT" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -57931,20 +57931,20 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="5V" class="0">
+<net name="VOUT" class="0">
 <segment>
 <pinref part="C36" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="111.76" x2="213.36" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="SUPPLY42" gate="G$1" pin="5V"/>
+<pinref part="SUPPLY42" gate="G$1" pin="VOUT"/>
 </segment>
 <segment>
 <pinref part="C38" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="83.82" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="SUPPLY41" gate="G$1" pin="5V"/>
+<pinref part="SUPPLY41" gate="G$1" pin="VOUT"/>
 </segment>
 <segment>
 <pinref part="L1" gate="G$1" pin="2"/>
-<pinref part="SUPPLY45" gate="G$1" pin="5V"/>
+<pinref part="SUPPLY45" gate="G$1" pin="VOUT"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="111.76" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="111.76" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
@@ -57956,40 +57956,40 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2135_HORI
 <segment>
 <pinref part="C33" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="142.24" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="SUPPLY47" gate="G$1" pin="5V"/>
+<pinref part="SUPPLY47" gate="G$1" pin="VOUT"/>
 </segment>
 <segment>
 <pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="114.3" x2="203.2" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="SUPPLY48" gate="G$1" pin="5V"/>
+<pinref part="SUPPLY48" gate="G$1" pin="VOUT"/>
 </segment>
 <segment>
 <pinref part="C35" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="114.3" x2="193.04" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="SUPPLY49" gate="G$1" pin="5V"/>
+<pinref part="SUPPLY49" gate="G$1" pin="VOUT"/>
 </segment>
 <segment>
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="86.36" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="SUPPLY50" gate="G$1" pin="5V"/>
+<pinref part="SUPPLY50" gate="G$1" pin="VOUT"/>
 </segment>
 <segment>
 <pinref part="C37" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="86.36" x2="193.04" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="SUPPLY51" gate="G$1" pin="5V"/>
+<pinref part="SUPPLY51" gate="G$1" pin="VOUT"/>
 </segment>
 <segment>
-<pinref part="SUPPLY6" gate="G$1" pin="5V"/>
+<pinref part="SUPPLY6" gate="G$1" pin="VOUT"/>
 <pinref part="CN3" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="109.22" x2="236.22" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<pinref part="SUPPLY7" gate="G$1" pin="5V"/>
+<pinref part="SUPPLY7" gate="G$1" pin="VOUT"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="SUPPLY9" gate="G$1" pin="5V"/>
+<pinref part="SUPPLY9" gate="G$1" pin="VOUT"/>
 <wire x1="238.76" y1="83.82" x2="238.76" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
