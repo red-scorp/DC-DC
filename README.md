@@ -102,6 +102,7 @@ Features:
 - Based on: **Ti LM3150**
 
 CAM files are available.
+BoM and PnP files for JLCPCB are available.
 
 ## DCDC-5V5V3A
 
