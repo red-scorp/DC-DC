@@ -172,7 +172,7 @@ CAM files are available.
 
 ## DCDC-BOX
 
-**DCDC-BOX** is a enclosure for a single DCDC module suitable for FDM and SLA 3D printing.
+**DCDC-BOX** is a enclosure for a single DCDC module, suitable for FDM and SLA 3D printing.
 
 ![DCDC-BOX preview](3d/DCDC-BOX.png)
 
@@ -180,7 +180,7 @@ STL file is available.
 
 ## DCDC-BOX-X2
 
-**DCDC-BOX-X2** is a enclosure for a x2 base board suitable for FDM and SLA 3D printing.
+**DCDC-BOX-X2** is a enclosure for a X2A and X2B base boards, suitable for FDM and SLA 3D printing.
 
 ![DCDC-BOX-X2 preview](3d/DCDC-BOX-X2.png)
 
@@ -188,7 +188,7 @@ STL file is available.
 
 ## Link
 
-- Interesting paper [Under the hood of a noninverting buck-boost converter](https://www.ti.com/seclit/ml/slup346/slup346.pdf)
+- Interesting paper from Ti [Under the hood of a noninverting buck-boost converter](https://www.ti.com/seclit/ml/slup346/slup346.pdf)
 - Product page [Ti LM3150](https://www.ti.com/product/LM3150)
 - Product page [Ti TPS63020](https://www.ti.com/product/TPS63020)
 
