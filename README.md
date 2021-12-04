@@ -15,9 +15,9 @@ When used for more than 1A current it's recommended to glue a heat sink about 20
 
 Preview:
 
-![DCDC-12V5V5A preview](DCDC-12V5V5A.png)
+![DCDC-12V5V5A preview](img/DCDC-12V5V5A.png)
 
-[Schematics in PDF format](DCDC-12V5V5A.pdf)
+[Schematics in PDF format](doc/DCDC-12V5V5A.pdf)
 
 Features:
 
@@ -39,9 +39,9 @@ When used for more than 1A current it's recommended to glue a heat sink about 20
 
 Preview:
 
-![DCDC-12V3V5A preview](DCDC-12V3V5A.png)
+![DCDC-12V3V5A preview](img/DCDC-12V3V5A.png)
 
-[Schematics in PDF format](DCDC-12V3V5A.pdf)
+[Schematics in PDF format](doc/DCDC-12V3V5A.pdf)
 
 Features:
 
@@ -63,9 +63,9 @@ When used for more than 1A current it's recommended to glue a heat sink about 20
 
 Preview:
 
-![DCDC-18V12V5A preview](DCDC-18V12V5A.png)
+![DCDC-18V12V5A preview](img/DCDC-18V12V5A.png)
 
-[Schematics in PDF format](DCDC-18V12V5A.pdf)
+[Schematics in PDF format](doc/DCDC-18V12V5A.pdf)
 
 Features:
 
@@ -87,9 +87,9 @@ When used for more than 1A current it's recommended to glue a heat sink about 20
 
 Preview:
 
-![DCDC-18VXV5A preview](DCDC-18VXV5A.png)
+![DCDC-18VXV5A preview](img/DCDC-18VXV5A.png)
 
-[Schematics in PDF format](DCDC-18VXV5A.pdf)
+[Schematics in PDF format](doc/DCDC-18VXV5A.pdf)
 
 Features:
 
@@ -111,9 +111,9 @@ When used for more than 1A current it's recommended to glue a heat sink about 20
 
 Preview:
 
-![DCDC-5V5V3A preview](DCDC-5V5V3A.png)
+![DCDC-5V5V3A preview](img/DCDC-5V5V3A.png)
 
-[Schematics in PDF format](DCDC-5V5V3A.pdf)
+[Schematics in PDF format](doc/DCDC-5V5V3A.pdf)
 
 Features:
 
@@ -135,9 +135,9 @@ When used for more than 1A current it's recommended to glue a heat sinks about 2
 
 Preview:
 
-![DCDC-BASE-X2A preview](DCDC-BASE-X2A.png)
+![DCDC-BASE-X2A preview](img/DCDC-BASE-X2A.png)
 
-[Schematics in PDF format](DCDC-BASE-X2A.pdf)
+[Schematics in PDF format](doc/DCDC-BASE-X2A.pdf)
 
 Features:
 
@@ -156,9 +156,9 @@ When used for more than 1A current it's recommended to glue a heat sinks about 2
 
 Preview:
 
-![DCDC-BASE-X2B preview](DCDC-BASE-X2B.png)
+![DCDC-BASE-X2B preview](img/DCDC-BASE-X2B.png)
 
-[Schematics in PDF format](DCDC-BASE-X2B.pdf)
+[Schematics in PDF format](doc/DCDC-BASE-X2B.pdf)
 
 Features:
 
@@ -174,7 +174,7 @@ CAM files are available.
 
 **DCDC-BOX** is a enclosure for a single DCDC module, suitable for FDM and SLA 3D printing.
 
-![DCDC-BOX preview](3d/DCDC-BOX.png)
+![DCDC-BOX preview](img/DCDC-BOX.png)
 
 STL file is available.
 
@@ -182,7 +182,7 @@ STL file is available.
 
 **DCDC-BOX-X2** is a enclosure for a X2A and X2B base boards, suitable for FDM and SLA 3D printing.
 
-![DCDC-BOX-X2 preview](3d/DCDC-BOX-X2.png)
+![DCDC-BOX-X2 preview](img/DCDC-BOX-X2.png)
 
 STL file is available.
 
