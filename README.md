@@ -128,6 +128,30 @@ Features:
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
 
+## DCDC-5VXV3A
+
+**DCDC-5VXV3A** is simple DC/DC step-up/down converter with selectable output 1.2-5V.
+When used for more than 1A current it's recommended to glue a heat sink about 20x20mm in a middle of the bottom side of the board.
+
+Preview:
+
+![DCDC-5VXV3A preview](img/DCDC-5VXV3A.png)
+
+[Schematics in PDF format](doc/DCDC-5VXV3A.pdf)
+
+Features:
+
+- Input: **1.8-5.5V**
+- Output: **1.2-5V**
+- Current: **3A (peak 5A)**
+- Switching: **2.4MHz**
+- Efficiency: **up to 90%**
+- Board size: **40x24mm**
+- Based on: **Ti TPS63020**
+
+CAM files are available.
+BoM and PnP files for JLCPCB are available.
+
 ## DCDC-BASE-X2A
 
 **DCDC-BASE-X2A** is base board for 2 DC/DC modules with common input and two separate outputs.

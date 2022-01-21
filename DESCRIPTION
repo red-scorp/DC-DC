@@ -60,6 +60,18 @@ Features:
 <li>Based on: <b>Ti TPS63020</b></li>
 </ul><br/>
 
+<b>DCDC-5VXV3A</b> - DC/DC Buck-Boost Converter<br/>
+Features:
+<ul>
+<li>Input: <b>1.8-5.5V</b></li>
+<li>Output: <b>1.2-5V</b></li>
+<li>Current: <b>3A (peak 5A)</b></li>
+<li>Switching: <b>2.4MHz</b></li>
+<li>Efficiency: <b>up to 90%</b></li>
+<li>Board size: <b>40x24mm</b></li>
+<li>Based on: <b>Ti TPS63020</b></li>
+</ul><br/>
+
 <b>DCDC-BASE-X2A</b> - base board for 2 DC/DC modules<br/>
 Features:
 <ul>
