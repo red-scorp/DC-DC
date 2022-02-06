@@ -210,7 +210,7 @@ STL file is available.
 
 STL file is available.
 
-## Link
+## Links
 
 - Interesting paper from Ti [Under the hood of a noninverting buck-boost converter](https://www.ti.com/seclit/ml/slup346/slup346.pdf)
 - Product page [Ti LM3150](https://www.ti.com/product/LM3150)
