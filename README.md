@@ -3,10 +3,11 @@
 This project is intended to implement some simple multipurpose DC/DC buck and buck-boost converters from easy available components.
 This project also features Excel based component values calculator.
 
-I've stared this project to create stable and high qualitaty DC/DC module for my private projects, covering most common usecases:
+I've stared this project to create stable and high quality DC/DC module for my private projects, covering most common usecases:
 
 - Step-down to most common fixed voltages 3.3V, 5V and 12V up to 5A
 - Step-up/down from 1.8V-5.5V to 3.3V and 5V up to 3A
+- Step-up/down from 2.5V-12V to 3.3V and 5V up to 1A
 
 ## DCDC-12V5V5A
 
@@ -152,6 +153,29 @@ Features:
 CAM files are available.
 BoM and PnP files for JLCPCB are available.
 
+## DCDC-12V5V1A
+
+**DCDC-12V5V1A** is simple DC/DC step-up/down converter with selectable fixed output 3.3/5V.
+When used for more than 1A current it's recommended to glue a heat sink about 20x20mm in a middle of the bottom side of the board.
+
+Preview:
+
+![DCDC-12V5V1A preview](img/DCDC-12V5V1A.png)
+
+[Schematics in PDF format](doc/DCDC-12V5V1A.pdf)
+
+Features:
+
+- Input: **2.5-12V**
+- Output: **3.3/5V (select)**
+- Current: **1A (peak 2A)**
+- Switching: **2.4MHz**
+- Efficiency: **up to 90%**
+- Board size: **40x24mm**
+- Based on: **Ti TPS63060**
+
+CAM files are available.
+
 ## DCDC-BASE-X2A
 
 **DCDC-BASE-X2A** is base board for 2 DC/DC modules with common input and two separate outputs.
@@ -215,10 +239,12 @@ STL file is available.
 - Interesting paper from Ti [Under the hood of a noninverting buck-boost converter](https://www.ti.com/seclit/ml/slup346/slup346.pdf)
 - Product page [Ti LM3150](https://www.ti.com/product/LM3150)
 - Product page [Ti TPS63020](https://www.ti.com/product/TPS63020)
+- Product page [Ti TPS63060](https://www.ti.com/product/TPS63060)
 
 ## How to help
 
-Your contributions as code, resources or finances are welcome!
-Please contact me directly over e-mail andriy.golovnya@gmail.com or over [GitHub profile](https://github.com/red-scorp).
-Link for [Paypal donations](http://paypal.me/redscorp) and [Ko-Fi donations](http://ko-fi.com/redscorp), which are always welcome.
+Your contributions as code, resources, or finances are welcome! Please contact me directly via email at andriy.golovnya@gmail.com or through my [GitHub profile](https://github.com/red-scorp).
+
+If you'd like to make a financial contribution, you can donate via [PayPal](http://paypal.me/redscorp) or [Ko-Fi](http://ko-fi.com/redscorp). Your support is greatly appreciated.
+
 Thanks in advance!
