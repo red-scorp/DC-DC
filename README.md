@@ -175,6 +175,7 @@ Features:
 - Based on: **Ti TPS63060**
 
 CAM files are available.
+BoM and PnP files for JLCPCB are available.
 
 ## DCDC-BASE-X2A
 
