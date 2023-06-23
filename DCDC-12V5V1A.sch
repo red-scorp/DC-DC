@@ -57596,7 +57596,7 @@ Updated by Ella Wu 2022-07-21&lt;br&gt;
 <part name="U1" library="TPS63060DSCT" deviceset="TPS63060DSCT" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="100nF"/>
-<part name="L1" library="Wurth_Power Magnetics_WE-LQS" library_urn="urn:adsk.eagle:library:14283646" deviceset="WE-LQS_4018" device="" package3d_urn="urn:adsk.eagle:package:13009659/3" technology="_74404042010" value="1uH"/>
+<part name="L1" library="Wurth_Power Magnetics_WE-LQS" library_urn="urn:adsk.eagle:library:14283646" deviceset="WE-LQS_4018" device="" package3d_urn="urn:adsk.eagle:package:13009659/3" technology="_74404042010" value="1.5uH"/>
 </parts>
 <sheets>
 <sheet>
@@ -57824,8 +57824,8 @@ Updated by Ella Wu 2022-07-21&lt;br&gt;
 <instance part="SUPPLY10" gate="G$1" x="137.16" y="124.46" smashed="yes">
 <attribute name="VALUE" x="137.16" y="127.254" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND6" gate="1" x="78.74" y="93.98" smashed="yes">
-<attribute name="VALUE" x="78.74" y="93.726" size="1.778" layer="96" align="top-center"/>
+<instance part="GND6" gate="1" x="76.2" y="93.98" smashed="yes">
+<attribute name="VALUE" x="76.2" y="93.726" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="R2" gate="G$1" x="142.24" y="111.76" smashed="yes">
 <attribute name="NAME" x="138.43" y="113.2586" size="1.778" layer="95"/>
@@ -57850,9 +57850,9 @@ Updated by Ella Wu 2022-07-21&lt;br&gt;
 <instance part="GND7" gate="1" x="96.52" y="109.22" smashed="yes">
 <attribute name="VALUE" x="96.52" y="108.966" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C2" gate="G$1" x="78.74" y="104.14" smashed="yes">
-<attribute name="NAME" x="80.264" y="104.521" size="1.778" layer="95"/>
-<attribute name="VALUE" x="80.264" y="99.441" size="1.778" layer="96"/>
+<instance part="C2" gate="G$1" x="76.2" y="104.14" smashed="yes">
+<attribute name="NAME" x="77.724" y="104.521" size="1.778" layer="95"/>
+<attribute name="VALUE" x="77.724" y="99.441" size="1.778" layer="96"/>
 </instance>
 <instance part="L1" gate="G$1" x="88.9" y="101.6" smashed="yes">
 <attribute name="NAME" x="88.9" y="105.41" size="1.778" layer="95" align="bottom-center"/>
@@ -58000,7 +58000,7 @@ Updated by Ella Wu 2022-07-21&lt;br&gt;
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="78.74" y1="99.06" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="99.06" x2="76.2" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -58122,7 +58122,7 @@ Updated by Ella Wu 2022-07-21&lt;br&gt;
 </net>
 <net name="VINA" class="0">
 <segment>
-<wire x1="99.06" y1="106.68" x2="78.74" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="106.68" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VAUX"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>

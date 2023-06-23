@@ -10551,7 +10551,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="18" y="6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="16.35" y="6.8" size="0.6096" layer="27" rot="R270"/>
 </element>
-<element name="L1" library="Wurth_Power Magnetics_WE-LQS" library_urn="urn:adsk.eagle:library:14283646" package="WE-LQS_4018" package3d_urn="urn:adsk.eagle:package:13009659/3" value="1uH" x="16" y="15" smashed="yes" rot="R180">
+<element name="L1" library="Wurth_Power Magnetics_WE-LQS" library_urn="urn:adsk.eagle:library:14283646" package="WE-LQS_4018" package3d_urn="urn:adsk.eagle:package:13009659/3" value="1.5uH" x="16" y="15" smashed="yes" rot="R180">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404042010?ae" x="16" y="15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="FRES" value="120MHz" x="16" y="15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="IR" value="3.2A" x="16" y="15" size="1.778" layer="27" rot="R180" display="off"/>
