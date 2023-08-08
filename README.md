@@ -1,3 +1,11 @@
+```
+ ____  _____   _ ____  _____    _____           _         _   
+|    \|     | / |    \|     |  |  _  |___ ___  |_|___ ___| |_ 
+|  |  |   --|/ /|  |  |   --|  |   __|  _| . | | | -_|  _|  _|
+|____/|_____|_/ |____/|_____|  |__|  |_| |___|_| |___|___|_|  
+                                             |___|
+```
+
 # DC/DC project
 
 This project is intended to implement some simple multipurpose DC/DC buck and buck-boost converters from easy available components.
@@ -238,9 +246,9 @@ STL file is available.
 ## Links
 
 - Interesting paper from Ti [Under the hood of a noninverting buck-boost converter](https://www.ti.com/seclit/ml/slup346/slup346.pdf)
-- Product page [Ti LM3150](https://www.ti.com/product/LM3150)
-- Product page [Ti TPS63020](https://www.ti.com/product/TPS63020)
-- Product page [Ti TPS63060](https://www.ti.com/product/TPS63060)
+- Product page of [Ti LM3150](https://www.ti.com/product/LM3150)
+- Product page of [Ti TPS63020](https://www.ti.com/product/TPS63020)
+- Product page of [Ti TPS63060](https://www.ti.com/product/TPS63060)
 
 ## How to help
 
